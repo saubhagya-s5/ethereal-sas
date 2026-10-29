@@ -22,7 +22,7 @@ Travellers now ask AI tools (ChatGPT, Gemini, Perplexity, Claude) which hotel to
 - New URLs follow Treebo's URL style (see below).
 - Save every raw AI answer to `output/raw/`.
 - API keys and DB credentials go only in `.env` (never commit it).
-- Never touch the production DB. `data/export_inventory.py` reads staging only, in a read-only session.
+- Never touch any database. Hotel data comes only from public treebo.com pages (`data/export_inventory_live.py`).
 - Each person edits only their own folder.
 - Contracts change only after telling the team.
 
@@ -48,13 +48,16 @@ Travellers now ask AI tools (ChatGPT, Gemini, Perplexity, Claude) which hotel to
 - **brief**: opp_id, title, meta_description, h1, quick_answer, sections[], faqs[{q,a}], internal_links[], hotel_ids[], sort_by
 
 ## Inventory
-Run `python data/export_inventory.py`. It needs `STAGING_DB_*` in `.env`.
+Run `python data/export_inventory_live.py`. It needs no credentials. Raw pages are cached in `data/raw_pages/`.
 
-- **Source:** Treebo staging `web_db_old`. Pune is city_id 14 and Bengaluru is city_id 1 (slug `bangalore`).
-- **Filtering:** test hotels and bad coordinates are dropped.
-- **Inactive hotels** are kept with `active: false`, so fact-checks can catch "closed hotel" claims.
-- **Prices are placeholders** (₹2000), so don't treat price mismatches as real errors.
+- **Source:** live treebo.com only. Hotels come from `sitemap-hotel.xml`, and fields come from each hotel page's schema.org JSON-LD. Details are in `data/inventory_notes.json`.
+- **hotel_id** is the live treebo.com ID (the last number in the hotel URL).
+- **active** is true for every hotel in the live sitemap.
+- **price_from is a brand-tier "from" price**, not an exact room rate. Always say "from ₹X".
+- **categories** come from the live city category pages.
 - **Amenity and category values** are slugs (`free-breakfast`, `budget-hotels`).
+- **places.json** lists localities and landmarks from the live sitemaps, with `coord_method` set to `page`, `hotel_average` or `none`.
+- `data/inventory_staging.json` and `data/places_staging.json` are old staging snapshots, kept for reference only. Never read them.
 
 ## Treebo findings (full detail with file paths: `docs/treebo_findings.md`)
 

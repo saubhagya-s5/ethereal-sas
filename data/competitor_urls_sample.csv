@@ -1,0 +1,13 @@
+competitor,url,city,place_type,place,filter_type,filter,source
+FabHotels,https://www.fabhotels.com/list-of-budget-hotels-in-koramangala-bangalore/,Bengaluru,locality,koramangala,category,budget-hotels,sample
+FabHotels,https://www.fabhotels.com/list-of-budget-hotels-in-indiranagar-bangalore/,Bengaluru,locality,indiranagar,category,budget-hotels,sample
+FabHotels,https://www.fabhotels.com/list-of-budget-hotels-in-whitefield-bangalore/,Bengaluru,locality,whitefield,category,budget-hotels,sample
+FabHotels,https://www.fabhotels.com/list-of-3-star-hotels-in-koramangala-bangalore/,Bengaluru,locality,koramangala,category,3-star-hotels,sample
+FabHotels,https://www.fabhotels.com/list-of-couple-friendly-hotels-in-bangalore/,Bengaluru,city,,category,couple-friendly-hotels,sample
+FabHotels,https://www.fabhotels.com/list-of-hotels-in-bangalore-with-swimming-pool/,Bengaluru,city,,amenity,swimming-pool,sample
+OYO,https://www.oyorooms.com/hotels-near-koramangala-bangalore/,Bengaluru,locality,koramangala,,,sample
+FabHotels,https://www.fabhotels.com/list-of-budget-hotels-in-wakad-pune/,Pune,locality,wakad,category,budget-hotels,sample
+FabHotels,https://www.fabhotels.com/list-of-budget-hotels-in-kharadi-pune/,Pune,locality,kharadi,category,budget-hotels,sample
+FabHotels,https://www.fabhotels.com/list-of-couple-friendly-hotels-in-pune/,Pune,city,,category,couple-friendly-hotels,sample
+OYO,https://www.oyorooms.com/hotels-in-pune/business-travellers/,Pune,city,,category,business-hotels,sample
+OYO,https://www.oyorooms.com/hotels-in-pune/family-oyos/,Pune,city,,category,family-hotels,sample

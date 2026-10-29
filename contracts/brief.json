@@ -1,9 +1,9 @@
 {
-  "opp_id": "blr-koramangala-free-breakfast",
-  "title": "Hotels in Koramangala, Bangalore with Free Breakfast | Treebo",
-  "meta_description": "Book Treebo hotels in Koramangala, Bangalore with free breakfast. Compare 4 hotels, ratings and amenities.",
-  "h1": "Hotels in Koramangala, Bangalore with Free Breakfast",
-  "quick_answer": "Treebo has 4 hotels in Koramangala that include free breakfast: Treebo Edha Suites, Treebo Terminus, Treebo CANNA NGV and Treebo Paul's Inn.",
+  "opp_id": "ban-koramangala-gym",
+  "title": "Hotels in Koramangala, Bangalore with Gym | Treebo",
+  "meta_description": "Book Treebo hotels in Koramangala, Bangalore with a gym. Compare 2 hotels, ratings and amenities, from ₹1200.",
+  "h1": "Hotels in Koramangala, Bangalore with Gym",
+  "quick_answer": "Treebo has 2 hotels in Koramangala with a gym: Treebo Edha Suites Koramangala (rated 4.1) and Treebo Ivory White Inn (rated 3.9), from ₹1200.",
   "sections": [
     "Quick answer",
     "Hotel list",
@@ -14,19 +14,19 @@
   ],
   "faqs": [
     {
-      "q": "Which Treebo hotels in Koramangala offer free breakfast?",
-      "a": "Treebo Edha Suites, Treebo Terminus, Treebo CANNA NGV and Treebo Paul's Inn."
+      "q": "Which Treebo hotels in Koramangala have a gym?",
+      "a": "Treebo Edha Suites Koramangala and Treebo Ivory White Inn."
     },
     {
-      "q": "Which of these hotels has a gym?",
-      "a": "Treebo Edha Suites."
+      "q": "Which of these hotels also has a restaurant?",
+      "a": "Treebo Edha Suites Koramangala."
     }
   ],
   "internal_links": [
     "https://www.treebo.com/hotels-in-koramangala-bangalore/",
-    "https://www.treebo.com/budget-hotels-in-bangalore/",
-    "https://www.treebo.com/hotels-in-bangalore-with-gym/"
+    "https://www.treebo.com/hotels-in-bangalore-with-gym/",
+    "https://www.treebo.com/budget-hotels-in-bangalore/"
   ],
-  "hotel_ids": ["444", "332", "790", "923"],
+  "hotel_ids": ["444", "4126"],
   "sort_by": "rating"
 }

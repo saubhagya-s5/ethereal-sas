@@ -1,0 +1,43 @@
+{
+  "source": "treebo.com public sitemaps + hotel/category/place pages (no staging, no API)",
+  "active": "true for every hotel in sitemap-hotel.xml (Treebo lists only enabled hotels there)",
+  "hotel_id": "live treebo.com hotel id (last number in the hotel URL)",
+  "price_from": "Lower bound of the hotel page's schema.org priceRange. It is a brand-tier band (e.g. Itsy 999, Treebo 1200, Premium 1300), not an exact room price. Pages and fact-checks must say 'from ₹X', never an exact nightly rate.",
+  "rating": "schema.org aggregateRating.ratingValue on the hotel page",
+  "amenities": "schema.org amenityFeature with value=true, slugified",
+  "categories": "hotel listed on the live city category page (e.g. /budget-hotels-in-pune/)",
+  "places": "localities/landmarks from live sitemaps; coord_method = page | hotel_average | none",
+  "report": {
+    "Pune": {
+      "hotels": 53,
+      "with_coordinates": 53,
+      "with_price_from": 53,
+      "with_amenities": 53,
+      "with_rating": 53,
+      "with_locality": 53,
+      "with_categories": 52,
+      "places": 604,
+      "place_coord_method": {
+        "page": 108,
+        "hotel_average": 0,
+        "none": 496
+      }
+    },
+    "Bengaluru": {
+      "hotels": 81,
+      "with_coordinates": 81,
+      "with_price_from": 81,
+      "with_amenities": 81,
+      "with_rating": 80,
+      "with_locality": 81,
+      "with_categories": 81,
+      "places": 1482,
+      "place_coord_method": {
+        "page": 174,
+        "hotel_average": 0,
+        "none": 1308
+      }
+    },
+    "hotel_pages_without_jsonld": []
+  }
+}

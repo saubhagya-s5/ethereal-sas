@@ -1,17 +1,15 @@
 {
-  "opp_id": "blr-koramangala-free-breakfast",
+  "opp_id": "ban-koramangala-gym",
   "city": "Bengaluru",
   "place_type": "locality",
   "place": "Koramangala",
   "filter_type": "amenity",
-  "filter": "free-breakfast",
-  "proposed_url": "https://www.treebo.com/hotels-in-koramangala-bangalore-with-free-breakfast/",
+  "filter": "gym",
+  "proposed_url": "https://www.treebo.com/hotels-in-koramangala-bangalore-with-gym/",
   "exists_on_treebo": false,
-  "competitors_with_page": [
-    "https://www.fabhotels.com/hotels-in-koramangala-bangalore-with-breakfast/"
-  ],
-  "search_volume": 880,
-  "matching_hotel_ids": ["332", "444", "790", "923"],
-  "ai_mention_rate": 0.1,
-  "score": 0.82
+  "competitors_with_page": [],
+  "search_volume": 140,
+  "matching_hotel_ids": ["444", "4126"],
+  "ai_mention_rate": 0.0,
+  "score": 41.7
 }
