@@ -46,8 +46,7 @@ def about_area_text(opp: dict, hotels: list[dict], use_llm: bool) -> str:
 def hotel_view(h: dict, opp: dict, compare: list[str], prices: dict) -> dict:
     words = [w for w in h["name"].replace("Treebo", "").split() if w[:1].isalpha()]
     chips = []
-    if opp["filter_type"] == "amenity":
-        chips.append({"label": label(opp["filter"]), "hit": True})
+    chips.append({"label": label(opp["filter"]), "hit": True})
     chips += [{"label": label(a), "hit": False} for a in compare if a in h["amenities"] and a != opp["filter"]][:5]
     live = prices.get(str(h["hotel_id"]))
     return {**h, "initials": "".join(w[0] for w in words[:2]).upper() or "T", "chips": chips,

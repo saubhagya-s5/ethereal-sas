@@ -34,7 +34,8 @@ SKIP_AMENITIES = {"security", "card-payment-accepted", "cupboards", "geyser", "i
 NEGATION = re.compile(r"\b(no|not|without|doesn't|does not|don't|do not|lacks?|isn't|aren't)\b", re.I)
 PRICE = re.compile(r"(₹|\bRs\.?\s?\d|\bINR\b|\brupees\b|\bper night\b)", re.I)
 RATING = re.compile(r"(?:rated|rating(?: of)?)\s*(\d(?:\.\d)?)|(\d(?:\.\d)?)\s*(?:/\s*5\b|out of 5)", re.I)
-COUNT = re.compile(r"\b(\d+|" + "|".join(NUMBER_WORDS) + r")\s+(?:treebo\s+)?(?:hotels?|properties|stays)\b", re.I)
+# "4 hotels", "four Treebo hotels", "four budget hotels" (one descriptive word allowed).
+COUNT = re.compile(r"\b(\d+|" + "|".join(NUMBER_WORDS) + r")\s+(?:treebo\s+)?(?:[a-z]+\s+)?(?:hotels?|properties|stays)\b", re.I)
 TREEBO_NAME = re.compile(r"\bTreebo(?:\s+[A-Z][\w'&.-]*)+")
 NOT_HOTEL_NAMES = {"hotels", "hotel", "app", "rewards", "website", "has", "offers", "lists"}
 

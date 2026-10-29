@@ -11,6 +11,7 @@ from generator import llm, page, simulate
 from generator.data import CITY_SLUGS, PAGES, ROOT, city_of_query, inventory, label, load
 
 ENGINES = ["chatgpt", "gemini", "perplexity", "claude"]
+DEMO_PLACE_TYPES = {"locality", "landmark"}
 
 
 # ---------- helpers ----------
@@ -32,19 +33,28 @@ def city_results() -> tuple[list[dict], list[dict]]:
             [r for r in results if city_of_query(r["query_id"], queries) == city()])
 
 
-def city_opps() -> list[dict]:
+def city_opps(demo_only: bool = True) -> list[dict]:
+    """By default only locality and landmark opportunities: the demo pages are never city-level."""
     opps, _ = load("opportunities")
-    return sorted((o for o in opps if o["city"] == city()), key=lambda o: -o["score"])
+    return sorted((o for o in opps if o["city"] == city() and (not demo_only or o["place_type"] in DEMO_PLACE_TYPES)),
+                  key=lambda o: -o["score"])
+
+
+def default_opp(opps: list[dict]) -> str:
+    """Budget pages first (e.g. Koramangala or Indiranagar + budget), then the highest score."""
+    budget = [o for o in opps if "budget" in o["filter"]]
+    return (budget or opps)[0]["opp_id"]
 
 
 def pick_opp() -> dict | None:
     opps = city_opps()
     if not opps:
-        st.info(f"No opportunities for {city()} yet.")
+        st.info(f"No locality or landmark opportunities for {city()} yet.")
         return None
     ids = [o["opp_id"] for o in opps]
     current = st.session_state.get("opp_id")
-    choice = st.selectbox("Opportunity", ids, index=ids.index(current) if current in ids else 0,
+    current = current if current in ids else default_opp(opps)
+    choice = st.selectbox("Opportunity", ids, index=ids.index(current),
                           format_func=lambda i: f"{i}  ·  score {next(o['score'] for o in opps if o['opp_id'] == i):.2f}")
     st.session_state["opp_id"] = choice
     return next(o for o in opps if o["opp_id"] == choice)
@@ -139,7 +149,7 @@ def dashboard() -> None:
 def coverage() -> None:
     st.title(f"Coverage & opportunities · {city()}")
     sample_note("opportunities")
-    opps = city_opps()
+    opps = city_opps(demo_only=False)
     inv = inventory()
     in_opp = {str(i) for o in opps for i in o["matching_hotel_ids"]}
     hotels = [h for h in inv.values() if h["city"] == city() and h["active"]]

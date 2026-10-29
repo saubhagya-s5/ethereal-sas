@@ -104,40 +104,57 @@ def template_text(opp: dict, hotels: list[dict], queries: list[dict]) -> dict:
     hotel_names = [h["name"] for h in hotels]
     count = NUMBERS.get(len(hotels), str(len(hotels)))
     near = "near" if opp["place_type"] == "landmark" else "in"
-    what = f"with {filter_phrase(opp)}" if opp["filter_type"] == "amenity" else f"listed as {filter_phrase(opp)}"
-    quick = f"Treebo has {count} hotel{'s' if len(hotels) != 1 else ''} {near} {opp['place']} {what}: {names(hotel_names)}."
+    amenity = opp["filter_type"] == "amenity"
+    plural = "s" if len(hotels) != 1 else ""
+    # Amenity pages read "hotels in X with free breakfast"; category pages read "budget hotels in X".
+    kind = f"Treebo hotel{plural}" if amenity else f"Treebo {filter_phrase(opp)}"
+    where = f"{near} {opp['place']}" + (f" with {filter_phrase(opp)}" if amenity else "")
+    quick = (f"Treebo has {count} hotel{plural} {where}: {names(hotel_names)}." if amenity
+             else f"Treebo has {count} {filter_phrase(opp)} {where}: {names(hotel_names)}.")
 
     faqs = []
     for q in queries:  # real traveller questions that this page answers exactly
         tags = q["tags"]
-        if (tags.get("place") or "").lower() == opp["place"].lower() and opp["filter"] in (tags.get("amenity"), tags.get("intent")):
-            # An intent like "budget" narrows the answer to hotels in that category.
-            category = f"{tags['intent']}-hotels" if tags.get("intent") and tags["intent"] != opp["filter"] else None
-            fit = [h["name"] for h in hotels if not category or category in h["categories"]]
+        if (tags.get("place") or "").lower() == opp["place"].lower() and opp["filter"] in tag_filters(tags):
+            # Every other tag narrows the answer: "budget ... with free breakfast" needs both.
+            fit = [h["name"] for h in hotels if (not tags.get("amenity") or tags["amenity"] in h["amenities"])
+                   and (not tags.get("intent") or f"{tags['intent']}-hotels" in h["categories"]
+                        or tags["intent"] in h["categories"])]
             if fit:
                 faqs.append({"q": q["text"], "a": f"{names(fit)}."})
-    main_q = f"Which Treebo hotels {near} {opp['place']} {'offer' if opp['filter_type'] == 'amenity' else 'are'} {filter_phrase(opp)}?"
+    if amenity:
+        main_q = f"Which Treebo hotels {near} {opp['place']} offer {filter_phrase(opp)}?"
+        count_q = f"How many Treebo hotels {near} {opp['place']} have {filter_phrase(opp)}?"
+    else:
+        main_q = f"Which {kind} are {near} {opp['place']}?"
+        count_q = f"How many {kind} are {near} {opp['place']}?"
     faqs.append({"q": main_q, "a": f"{names(hotel_names)}."})
-    verb = "have" if opp["filter_type"] == "amenity" else "are"
-    faqs.append({"q": f"How many Treebo hotels {near} {opp['place']} {verb} {filter_phrase(opp)}?",
-                 "a": f"{count.capitalize()}: {names(hotel_names)}."})
+    faqs.append({"q": count_q, "a": f"{count.capitalize()}: {names(hotel_names)}."})
     rated = [h for h in hotels if h["rating"]]
     if rated:
         top = max(h["rating"] for h in rated)
         best = [h["name"] for h in rated if h["rating"] == top]
         faqs.append({"q": "Which of these hotels is rated highest?", "a": f"{names(best)}, rated {top:g} out of 5."})
-    for amenity in ("parking", "gym", "free-wifi", "room-service", "swimming-pool", "restaurant"):
-        have = [h["name"] for h in hotels if amenity in h["amenities"]]
-        if have and amenity != opp["filter"] and len(faqs) < 7:
-            faqs.append({"q": f"Which of these hotels have {ARTICLE.get(amenity, '')}{label(amenity).lower()}?", "a": f"{names(have)}."})
+    for extra in ("parking", "gym", "free-wifi", "room-service", "swimming-pool", "restaurant"):
+        have = [h["name"] for h in hotels if extra in h["amenities"]]
+        if have and extra != opp["filter"] and len(faqs) < 7:
+            faqs.append({"q": f"Which of these hotels have {ARTICLE.get(extra, '')}{label(extra).lower()}?", "a": f"{names(have)}."})
     couple = [h["name"] for h in hotels if "couple-friendly-hotels" in h["categories"]]
     if couple and len(faqs) < 8:
         faqs.append({"q": "Which of these hotels are couple-friendly?", "a": f"{names(couple)}."})
     faqs.append({"q": "How do I check the latest price and book?",
                  "a": "Choose a hotel above and tap Book Now to see live prices and availability on treebo.com."})
 
-    meta = f"Book Treebo hotels {near} {opp['place']}, {opp['city']} {what}. Compare {len(hotels)} hotels, ratings and amenities."
+    meta = f"Book {kind if not amenity else 'Treebo hotels'} {near} {opp['place']}, {opp['city']}{' with ' + filter_phrase(opp) if amenity else ''}. Compare {len(hotels)} hotels, ratings and amenities."
     return {"quick_answer": quick, "meta_description": meta[:155], "faqs": dedupe(faqs)[:8]}
+
+
+def tag_filters(tags: dict) -> set[str]:
+    """Filter slugs a query's tags can match: amenity slugs, and intents as categories ("budget" -> "budget-hotels")."""
+    out = {tags.get("amenity"), tags.get("intent")}
+    if tags.get("intent"):
+        out.add(f"{tags['intent']}-hotels")
+    return out - {None, ""}
 
 
 def dedupe(faqs: list[dict]) -> list[dict]:

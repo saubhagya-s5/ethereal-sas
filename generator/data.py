@@ -109,7 +109,8 @@ def related_results(opp: dict) -> tuple[list[dict], list[dict]]:
     matched = [
         q for q in city_queries
         if (q["tags"].get("place") or "").lower() == place
-        or filt in {(q["tags"].get("amenity") or "").lower(), (q["tags"].get("intent") or "").lower()}
+        or filt in {(q["tags"].get("amenity") or "").lower(), (q["tags"].get("intent") or "").lower(),
+                    f"{(q['tags'].get('intent') or '').lower()}-hotels"}
     ] or city_queries
     ids = {q["query_id"] for q in matched}
     return matched, [r for r in results if r["query_id"] in ids]

@@ -18,7 +18,7 @@ st.set_page_config(page_title="Treebo AEO Agent", page_icon="🏨", layout="wide
 
 with st.sidebar:
     st.markdown("### Treebo AEO Agent")
-    st.selectbox("City", list(CITY_SLUGS), index=1, key="city")
+    st.selectbox("City", list(CITY_SLUGS), index=list(CITY_SLUGS).index("Bengaluru"), key="city")  # main demo city
 
 pages = [
     st.Page(views.dashboard, title="Dashboard", icon=":material/leaderboard:", default=True),
