@@ -1,0 +1,11 @@
+{
+  "query_id": "blr-007",
+  "city": "Bengaluru",
+  "text": "Which budget hotels in Koramangala, Bangalore include free breakfast?",
+  "tags": {
+    "type": "locality_amenity",
+    "place": "Koramangala",
+    "intent": "budget",
+    "amenity": "free-breakfast"
+  }
+}

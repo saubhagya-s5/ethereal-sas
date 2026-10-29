@@ -1,0 +1,29 @@
+{
+  "query_id": "blr-007",
+  "engine": "perplexity",
+  "run": 2,
+  "raw_answer_path": "output/raw/perplexity/blr-007_run2.json",
+  "brands_mentioned": ["FabHotels", "OYO", "Treebo", "Zostel"],
+  "treebo_mentioned": true,
+  "treebo_rank": 3,
+  "cited_urls": [
+    "https://www.fabhotels.com/hotels-in-koramangala-bangalore/",
+    "https://www.makemytrip.com/hotels/hotels_in_koramangala-bangalore.html",
+    "https://www.treebo.com/hotels-in-bangalore/treebo-edha-suites-444/"
+  ],
+  "treebo_claims": [
+    {
+      "hotel_id": "444",
+      "claim": "Treebo Edha Suites offers free breakfast",
+      "status": "correct",
+      "truth": "free-breakfast is in amenities"
+    },
+    {
+      "hotel_id": "332",
+      "claim": "Treebo Terminus has a gym",
+      "status": "wrong",
+      "truth": "gym is not in amenities for hotel 332"
+    }
+  ],
+  "miss_reason": null
+}

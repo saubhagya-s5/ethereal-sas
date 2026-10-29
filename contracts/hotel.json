@@ -1,0 +1,14 @@
+{
+  "hotel_id": "444",
+  "name": "Treebo Edha Suites",
+  "city": "Bengaluru",
+  "locality": "Koramangala",
+  "lat": 12.938193,
+  "lng": 77.630566,
+  "price_from": 2000.0,
+  "rating": 4.0,
+  "amenities": ["24-hour-security", "ac-room", "free-breakfast", "gym", "parking", "room-service"],
+  "categories": ["budget-hotels", "business-hotels", "couple-friendly-hotels", "family-hotels"],
+  "active": true,
+  "url": "https://www.treebo.com/hotels-in-bangalore/treebo-edha-suites-444/"
+}

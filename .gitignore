@@ -1,0 +1,9 @@
+.env
+output/raw/*
+!output/raw/.gitkeep
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.streamlit/secrets.toml

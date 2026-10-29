@@ -1,0 +1,11 @@
+# Python 3.11
+streamlit
+jinja2
+pandas
+httpx
+python-dotenv
+openai
+google-genai
+anthropic
+lxml
+psycopg2-binary  # data/export_inventory.py (staging DB, read-only)

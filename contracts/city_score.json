@@ -1,0 +1,13 @@
+{
+  "city": "Bengaluru",
+  "mention_rate": 0.35,
+  "share_of_voice": 0.12,
+  "wrong_facts": 4,
+  "top_competitor": "FabHotels",
+  "by_engine": {
+    "chatgpt": 0.30,
+    "gemini": 0.25,
+    "perplexity": 0.55,
+    "claude": 0.30
+  }
+}
