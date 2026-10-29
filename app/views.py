@@ -62,8 +62,8 @@ def pick_opp() -> dict | None:
 
 def use_llm_toggle(key: str) -> bool:
     if llm.available():
-        return st.toggle(f"Write copy with Claude ({llm.MODEL})", value=True, key=key)
-    st.caption("No ANTHROPIC_API_KEY in .env: copy is built from templates (hotel facts are the same either way).")
+        return st.toggle(f"Write copy with {llm.LABEL} ({llm.MODEL})", value=True, key=key)
+    st.caption("No ANTHROPIC_API_KEY or GEMINI_API_KEY in .env: copy is built from templates (hotel facts are the same either way).")
     return False
 
 
@@ -279,7 +279,7 @@ def page_preview() -> None:
     with c1:
         use_llm = use_llm_toggle("page_llm")
     with c2:
-        deep = st.toggle("Deep fact-check (Claude extracts claims too)", value=False, disabled=not llm.available())
+        deep = st.toggle(f"Deep fact-check ({llm.LABEL} extracts claims too)", value=False, disabled=not llm.available())
     key = f"page_{opp['opp_id']}"
     if st.button("Generate page", type="primary"):
         with st.spinner("Building page and checking facts..."):
@@ -301,7 +301,7 @@ def page_preview() -> None:
         st.caption(f"Brief copy: {report['brief_source']} · area copy: {report['about_source']}")
         flags_table(report["guardrail"]["flags"])
         if report["guardrail"].get("blocked_before_fallback"):
-            with st.expander("Claude copy the guardrail blocked (replaced with template copy)"):
+            with st.expander("LLM copy the guardrail blocked (replaced with template copy)"):
                 st.dataframe(pd.DataFrame(report["guardrail"]["blocked_before_fallback"]), hide_index=True)
     if result and result["report"]["guardrail"]["blocked"]:
         st.error("Not saved: the page still has blocked claims.")
@@ -317,15 +317,16 @@ def tracking() -> None:
     opp = pick_opp()
     if opp:
         st.subheader("Before / after simulation")
-        st.caption("Claude answers each question from the pages AI engines cited, with and without our new page.")
+        st.caption(f"{llm.LABEL} answers each question from the pages AI engines cited, with and without our new page.")
         has_page = (PAGES / f"{opp['opp_id']}.html").exists()
-        runs = st.slider("Runs per question", 1, 5, 3)
+        # Free-tier Gemini allows only a few requests a minute, so default to one run there.
+        runs = st.slider("Runs per question", 1, 5, 1 if llm.PROVIDER == "gemini" else 3)
         if not llm.available():
-            st.caption("Needs ANTHROPIC_API_KEY in .env.")
+            st.caption("Needs ANTHROPIC_API_KEY or GEMINI_API_KEY in .env.")
         elif not has_page:
             st.caption("Generate the page first (Page preview).")
         if st.button("Run simulation", type="primary", disabled=not (llm.available() and has_page)):
-            with st.spinner("Asking Claude before and after..."):
+            with st.spinner(f"Asking {llm.LABEL} before and after..."):
                 simulate.run(opp, runs=runs)
         sim = simulate.load_result(opp["opp_id"])
         if sim:

@@ -121,14 +121,16 @@ def generate(opp: dict, use_llm: bool = True, deep_check: bool = False, save: bo
 
     page_html = render_page(brief, opp, about, inv)
     check = guardrail.check_page(page_html, hotels, opp, inv, use_llm=deep_check)
-    blocked_flags = []
-    if check["blocked"] and about_source == "llm":
-        blocked_flags = check["flags"]
-        about, about_source = about_area_text(opp, hotels, use_llm=False), "template (LLM text blocked by guardrail)"
+    blocked_before = brief_report["guardrail"]["flags"] if "blocked" in brief_report["source"] else []
+    if check["blocked"] and "llm" in (brief_report["source"], about_source):
+        # Some LLM copy failed the page check: fall back to template copy, which is built from inventory.
+        blocked_before += check["flags"]
+        brief, _ = brief_mod.build_brief(opp, use_llm=False)
+        about = about_area_text(opp, hotels, use_llm=False)
+        brief_report["source"] = about_source = "template (LLM text blocked by guardrail)"
         page_html = render_page(brief, opp, about, inv)
-        check = guardrail.check_page(page_html, hotels, opp, inv, use_llm=deep_check)
-    brief_blocked = brief_report["guardrail"]["flags"] if "blocked" in brief_report["source"] else []
-    check["blocked_before_fallback"] = brief_blocked + blocked_flags
+        check = guardrail.check_page(page_html, hotels, opp, inv)
+    check["blocked_before_fallback"] = blocked_before
 
     report = {"brief_source": brief_report["source"], "about_source": about_source, "guardrail": check}
     path = None

@@ -19,6 +19,8 @@ NUMBER_WORDS = {"one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, 
 # Phrases a writer might use -> amenity slugs that make the phrase true.
 ALIASES = {
     "breakfast": {"free-breakfast", "complimentary-breakfast"},
+    "free breakfast": {"free-breakfast", "complimentary-breakfast"},
+    "complimentary breakfast": {"free-breakfast", "complimentary-breakfast"},
     "wifi": {"free-wifi"}, "wi-fi": {"free-wifi"},
     "pool": {"swimming-pool"},
     "air-conditioned": {"ac-room"}, "air conditioning": {"ac-room"},
@@ -45,10 +47,20 @@ class Vocabulary:
         self.inv = inv
         self.names = sorted(((h["name"].lower(), h) for h in inv.values()), key=lambda x: -len(x[0]))
         self.localities = {h["locality"] for h in inv.values() if h["city"] == city and h["locality"]}
-        slugs = {a for h in inv.values() for a in h["amenities"]} - SKIP_AMENITIES
-        phrases = {s.replace("-", " "): {s} for s in slugs}
+        every = {a for h in inv.values() for a in h["amenities"]}
+        phrases = {s.replace("-", " "): {s} for s in every - SKIP_AMENITIES}
         phrases.update(ALIASES)
         self.amenities = sorted(phrases.items(), key=lambda x: -len(x[0]))
+        # For claims an LLM extracted: every amenity, including ones too generic to scan copy for.
+        self.all_amenities = {**{s.replace("-", " "): {s} for s in every}, **ALIASES}
+
+    def amenity_slugs(self, value: str) -> set[str]:
+        """'AC rooms' -> {'ac-room'}. Empty when the phrase isn't an inventory amenity."""
+        low = value.lower().replace("-", " ").strip()
+        for candidate in (low, re.sub(r"s\b", "", low), re.sub(r"es\b", "", low)):
+            if candidate in self.all_amenities:
+                return self.all_amenities[candidate]
+        return {s for phrase, slugs in self.amenities if re.search(rf"\b{re.escape(phrase)}\b", low) for s in slugs}
 
     def hotels_in(self, text: str) -> list[dict]:
         low, found = text.lower(), []
@@ -93,16 +105,22 @@ def check_unit(field: str, text: str, vocab: Vocabulary, page_ids: set[str]) -> 
         if words and words[0].lower() not in NOT_HOTEL_NAMES:
             flags.append(flag("block", field, text, f"mentions '{m.group(0)}'", "no hotel with this name in inventory"))
 
-    # Amenities.
-    negated = bool(NEGATION.search(text))
+    # Amenities. A hotel is denied an amenity only when a negation sits between its name and the
+    # amenity in one clause ("Treebo Terminus does not have a gym"), or when an FAQ question is
+    # negative ("Which hotels don't have parking? Treebo Terminus."). A stray "not" elsewhere
+    # ("Edha Suites has a gym; the others do not") doesn't count.
+    question, _, answer = text.partition("?")
+    negative_question = bool(answer) and bool(NEGATION.search(question)) and not vocab.hotels_in(question)
     for phrase, slugs in vocab.amenities_in(text):
         for h in hotels:
+            denied = negative_question or bool(re.search(
+                rf"{re.escape(h['name'])}[^.;?]*?{NEGATION.pattern}[^.;?]*?\b{re.escape(phrase)}\b", text, re.I))
             has = bool(slugs & set(h["amenities"]))
-            if has == negated:
-                claim = f"{h['name']} {'does not have' if negated else 'has'} {phrase}"
+            if has == denied:
+                claim = f"{h['name']} {'does not have' if denied else 'has'} {phrase}"
                 truth = f"{phrase} is {'' if has else 'not '}in amenities for hotel {h['hotel_id']}"
-                # With several hotels in one sentence we can't be sure who the amenity belongs to.
-                flags.append(flag("block" if single or not negated else "warn", field, text, claim, truth))
+                # With several hotels in one sentence we can't always be sure who the amenity belongs to.
+                flags.append(flag("block" if single or denied else "warn", field, text, claim, truth))
 
     # Ratings.
     for m in RATING.finditer(text):
@@ -243,8 +261,10 @@ def check_llm_claims(text: str, opp: dict, inv: dict) -> list[dict]:
             continue
         h = hotels[0]
         if c["attribute"] == "amenity":
-            slugs = dict(vocab.amenities).get(c["value"].lower()) or {c["value"].lower().replace(" ", "-")}
-            if bool(slugs & set(h["amenities"])) == c["negated"]:
+            slugs = vocab.amenity_slugs(c["value"])
+            if not slugs:
+                flags.append(flag("warn", "llm-check", c["quote"], f"{h['name']}: {c['value']}", "not an inventory amenity; can't verify"))
+            elif bool(slugs & set(h["amenities"])) == c["negated"]:
                 flags.append(flag("block", "llm-check", c["quote"], f"{h['name']}: {c['value']}", f"amenities: {', '.join(h['amenities'])}"))
         elif c["attribute"] == "rating":
             try:

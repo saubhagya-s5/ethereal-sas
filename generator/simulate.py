@@ -70,7 +70,7 @@ def score(answer: str, hotel_names: list[str]) -> dict:
 
 def run(opp: dict, runs: int = 3, max_questions: int = 4, seed: int = 7) -> dict:
     if not llm.available():
-        raise RuntimeError("Simulation needs ANTHROPIC_API_KEY in .env")
+        raise RuntimeError("Simulation needs ANTHROPIC_API_KEY or GEMINI_API_KEY in .env")
     page_path = PAGES / f"{opp['opp_id']}.html"
     if not page_path.exists():
         raise FileNotFoundError(f"Generate the page first: {page_path}")

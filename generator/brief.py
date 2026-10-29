@@ -23,6 +23,7 @@ Hard rules:
 - State hotel facts ONLY from the FACTS JSON (names, localities, ratings, amenities, categories). Never add any other hotel fact.
 - Never mention prices, discounts, distances, check-in times or anything not in FACTS.
 - Refer to hotels by their exact names from FACTS.
+- Write amenities and categories in plain words ("AC rooms", "banquet hall", "couple-friendly"), never as slugs like "ac-room".
 - If an AI engine stated a wrong fact (see WRONG_CLAIMS), write an FAQ whose answer states the correct fact.
 - Plain, helpful tone. No superlatives you can't back with FACTS."""
 
