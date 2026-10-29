@@ -1,0 +1,1083 @@
+{
+  "prices": {
+    "124": {
+      "city": "Pune",
+      "pretax_price": 8800.45,
+      "sell_price": 10384.53,
+      "rack_rate": 9167.14,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "137": {
+      "city": "Pune",
+      "pretax_price": 7085.41,
+      "sell_price": 7439.69,
+      "rack_rate": 7380.64,
+      "room_type": "ACACIA",
+      "free_breakfast": true
+    },
+    "221": {
+      "city": "Pune",
+      "pretax_price": 4997.76,
+      "sell_price": 5247.64,
+      "rack_rate": 5206.0,
+      "room_type": "ACACIA",
+      "free_breakfast": true
+    },
+    "630": {
+      "city": "Pune",
+      "pretax_price": 5942.4,
+      "sell_price": 6239.52,
+      "rack_rate": 6190.0,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "811": {
+      "city": "Pune",
+      "pretax_price": 6494.63,
+      "sell_price": 6819.37,
+      "rack_rate": 6765.24,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "148": {
+      "city": "Bengaluru",
+      "pretax_price": 5247.94,
+      "sell_price": 5510.34,
+      "rack_rate": 5466.6,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "151": {
+      "city": "Bengaluru",
+      "pretax_price": 8712.31,
+      "sell_price": 10280.53,
+      "rack_rate": 9075.32,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "234": {
+      "city": "Bengaluru",
+      "pretax_price": 3815.42,
+      "sell_price": 4006.2,
+      "rack_rate": 3974.4,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "444": {
+      "city": "Bengaluru",
+      "pretax_price": 8451.84,
+      "sell_price": 9973.18,
+      "rack_rate": 8804.0,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "644": {
+      "city": "Bengaluru",
+      "pretax_price": 0.0,
+      "sell_price": 0.0,
+      "rack_rate": 0.0,
+      "room_type": "",
+      "free_breakfast": false
+    },
+    "1026": {
+      "city": "Bengaluru",
+      "pretax_price": 3728.89,
+      "sell_price": 3915.33,
+      "rack_rate": 3884.26,
+      "room_type": "ACACIA",
+      "free_breakfast": true
+    },
+    "1032": {
+      "city": "Bengaluru",
+      "pretax_price": 4331.67,
+      "sell_price": 4548.25,
+      "rack_rate": 4512.16,
+      "room_type": "ACACIA",
+      "free_breakfast": false
+    },
+    "1044": {
+      "city": "Bengaluru",
+      "pretax_price": 4530.82,
+      "sell_price": 4757.36,
+      "rack_rate": 4719.6,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "1045": {
+      "city": "Bengaluru",
+      "pretax_price": 3603.46,
+      "sell_price": 3783.64,
+      "rack_rate": 3753.6,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "1122": {
+      "city": "Bengaluru",
+      "pretax_price": 8347.24,
+      "sell_price": 9849.74,
+      "rack_rate": 8695.04,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "1203": {
+      "city": "Bengaluru",
+      "pretax_price": 3168.92,
+      "sell_price": 3327.36,
+      "rack_rate": 3300.96,
+      "room_type": "ACACIA",
+      "free_breakfast": false
+    },
+    "1064": {
+      "city": "Pune",
+      "pretax_price": 4663.68,
+      "sell_price": 4896.86,
+      "rack_rate": 4858.0,
+      "room_type": "MAPLE",
+      "free_breakfast": false
+    },
+    "1213": {
+      "city": "Pune",
+      "pretax_price": 6576.19,
+      "sell_price": 6904.99,
+      "rack_rate": 6850.2,
+      "room_type": "MAPLE",
+      "free_breakfast": false
+    },
+    "4490": {
+      "city": "Bengaluru",
+      "pretax_price": 3941.57,
+      "sell_price": 4138.65,
+      "rack_rate": 4105.8,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "3483": {
+      "city": "Bengaluru",
+      "pretax_price": 0.0,
+      "sell_price": 0.0,
+      "rack_rate": 0.0,
+      "room_type": "",
+      "free_breakfast": false
+    },
+    "2780": {
+      "city": "Bengaluru",
+      "pretax_price": 4304.45,
+      "sell_price": 4519.67,
+      "rack_rate": 4483.8,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "4302": {
+      "city": "Bengaluru",
+      "pretax_price": 3332.45,
+      "sell_price": 3499.07,
+      "rack_rate": 3471.3,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "1660": {
+      "city": "Bengaluru",
+      "pretax_price": 3595.41,
+      "sell_price": 3775.19,
+      "rack_rate": 3745.22,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "3825": {
+      "city": "Bengaluru",
+      "pretax_price": 3338.34,
+      "sell_price": 3505.26,
+      "rack_rate": 3477.44,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "2507": {
+      "city": "Bengaluru",
+      "pretax_price": 5009.28,
+      "sell_price": 5259.74,
+      "rack_rate": 5218.0,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "2601": {
+      "city": "Bengaluru",
+      "pretax_price": 3914.88,
+      "sell_price": 4110.62,
+      "rack_rate": 4078.0,
+      "room_type": "ACACIA",
+      "free_breakfast": false
+    },
+    "3874": {
+      "city": "Bengaluru",
+      "pretax_price": 3403.78,
+      "sell_price": 3573.96,
+      "rack_rate": 3545.6,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "3974": {
+      "city": "Bengaluru",
+      "pretax_price": 3709.44,
+      "sell_price": 3894.92,
+      "rack_rate": 3864.0,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "4480": {
+      "city": "Bengaluru",
+      "pretax_price": 5867.14,
+      "sell_price": 6160.5,
+      "rack_rate": 6111.6,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "3679": {
+      "city": "Bengaluru",
+      "pretax_price": 4868.64,
+      "sell_price": 5112.08,
+      "rack_rate": 5071.5,
+      "room_type": "MAPLE",
+      "free_breakfast": false
+    },
+    "4371": {
+      "city": "Bengaluru",
+      "pretax_price": 4072.32,
+      "sell_price": 4275.94,
+      "rack_rate": 4242.0,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "3712": {
+      "city": "Bengaluru",
+      "pretax_price": 3772.22,
+      "sell_price": 3960.84,
+      "rack_rate": 3929.4,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "4412": {
+      "city": "Bengaluru",
+      "pretax_price": 0.0,
+      "sell_price": 0.0,
+      "rack_rate": 0.0,
+      "room_type": "",
+      "free_breakfast": false
+    },
+    "3711": {
+      "city": "Bengaluru",
+      "pretax_price": 5023.3,
+      "sell_price": 5274.46,
+      "rack_rate": 5232.6,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "4570": {
+      "city": "Bengaluru",
+      "pretax_price": 8529.02,
+      "sell_price": 10064.24,
+      "rack_rate": 8884.4,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "4221": {
+      "city": "Bengaluru",
+      "pretax_price": 4342.94,
+      "sell_price": 4560.08,
+      "rack_rate": 4523.9,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "3083": {
+      "city": "Bengaluru",
+      "pretax_price": 3974.4,
+      "sell_price": 4173.12,
+      "rack_rate": 4140.0,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "4525": {
+      "city": "Bengaluru",
+      "pretax_price": 5639.14,
+      "sell_price": 5921.1,
+      "rack_rate": 5874.1,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "2814": {
+      "city": "Bengaluru",
+      "pretax_price": 5173.98,
+      "sell_price": 5432.68,
+      "rack_rate": 5389.56,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "4049": {
+      "city": "Bengaluru",
+      "pretax_price": 4871.04,
+      "sell_price": 5114.6,
+      "rack_rate": 5074.0,
+      "room_type": "MAPLE",
+      "free_breakfast": false
+    },
+    "2298": {
+      "city": "Bengaluru",
+      "pretax_price": 5807.87,
+      "sell_price": 6098.27,
+      "rack_rate": 6049.86,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "4018": {
+      "city": "Bengaluru",
+      "pretax_price": 4771.01,
+      "sell_price": 5009.57,
+      "rack_rate": 4969.8,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "4436": {
+      "city": "Bengaluru",
+      "pretax_price": 5665.46,
+      "sell_price": 5948.74,
+      "rack_rate": 5901.52,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "3740": {
+      "city": "Bengaluru",
+      "pretax_price": 3945.56,
+      "sell_price": 4142.84,
+      "rack_rate": 4109.96,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "4438": {
+      "city": "Bengaluru",
+      "pretax_price": 4545.41,
+      "sell_price": 4772.69,
+      "rack_rate": 4734.8,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "4400": {
+      "city": "Bengaluru",
+      "pretax_price": 0.0,
+      "sell_price": 0.0,
+      "rack_rate": 0.0,
+      "room_type": "",
+      "free_breakfast": false
+    },
+    "4126": {
+      "city": "Bengaluru",
+      "pretax_price": 4371.84,
+      "sell_price": 4590.44,
+      "rack_rate": 4554.0,
+      "room_type": "MAPLE",
+      "free_breakfast": false
+    },
+    "4538": {
+      "city": "Bengaluru",
+      "pretax_price": 3809.28,
+      "sell_price": 3999.74,
+      "rack_rate": 3968.0,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "3894": {
+      "city": "Bengaluru",
+      "pretax_price": 5386.64,
+      "sell_price": 5655.98,
+      "rack_rate": 5611.08,
+      "room_type": "MAPLE",
+      "free_breakfast": false
+    },
+    "2539": {
+      "city": "Bengaluru",
+      "pretax_price": 6220.63,
+      "sell_price": 6531.67,
+      "rack_rate": 6479.82,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "4325": {
+      "city": "Bengaluru",
+      "pretax_price": 8360.49,
+      "sell_price": 9865.37,
+      "rack_rate": 8708.84,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "3177": {
+      "city": "Bengaluru",
+      "pretax_price": 2980.8,
+      "sell_price": 3129.84,
+      "rack_rate": 3105.0,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "4272": {
+      "city": "Bengaluru",
+      "pretax_price": 4801.19,
+      "sell_price": 5041.25,
+      "rack_rate": 5001.24,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "3994": {
+      "city": "Bengaluru",
+      "pretax_price": 3902.71,
+      "sell_price": 4097.85,
+      "rack_rate": 4065.32,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "3932": {
+      "city": "Bengaluru",
+      "pretax_price": 4233.33,
+      "sell_price": 4444.99,
+      "rack_rate": 4409.72,
+      "room_type": "MAPLE",
+      "free_breakfast": false
+    },
+    "4244": {
+      "city": "Bengaluru",
+      "pretax_price": 4475.52,
+      "sell_price": 4699.3,
+      "rack_rate": 4662.0,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "4572": {
+      "city": "Bengaluru",
+      "pretax_price": 4083.84,
+      "sell_price": 4288.04,
+      "rack_rate": 4254.0,
+      "room_type": "ACACIA",
+      "free_breakfast": false
+    },
+    "4364": {
+      "city": "Bengaluru",
+      "pretax_price": 3780.48,
+      "sell_price": 3969.5,
+      "rack_rate": 3938.0,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "3977": {
+      "city": "Bengaluru",
+      "pretax_price": 5017.4,
+      "sell_price": 5268.28,
+      "rack_rate": 5226.46,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "2456": {
+      "city": "Bengaluru",
+      "pretax_price": 3976.13,
+      "sell_price": 4174.93,
+      "rack_rate": 4141.8,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "2690": {
+      "city": "Bengaluru",
+      "pretax_price": 7059.0,
+      "sell_price": 7411.96,
+      "rack_rate": 7353.12,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "4363": {
+      "city": "Bengaluru",
+      "pretax_price": 5507.71,
+      "sell_price": 5783.09,
+      "rack_rate": 5737.2,
+      "room_type": "MAPLE",
+      "free_breakfast": false
+    },
+    "4382": {
+      "city": "Bengaluru",
+      "pretax_price": 3821.76,
+      "sell_price": 4012.84,
+      "rack_rate": 3981.0,
+      "room_type": "MAPLE",
+      "free_breakfast": false
+    },
+    "3813": {
+      "city": "Bengaluru",
+      "pretax_price": 4155.84,
+      "sell_price": 4363.64,
+      "rack_rate": 4329.0,
+      "room_type": "ACACIA",
+      "free_breakfast": false
+    },
+    "4010": {
+      "city": "Bengaluru",
+      "pretax_price": 3576.96,
+      "sell_price": 3755.8,
+      "rack_rate": 3726.0,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "1460": {
+      "city": "Bengaluru",
+      "pretax_price": 5907.84,
+      "sell_price": 6203.24,
+      "rack_rate": 6154.0,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "4309": {
+      "city": "Bengaluru",
+      "pretax_price": 4452.48,
+      "sell_price": 4675.1,
+      "rack_rate": 4638.0,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "2538": {
+      "city": "Bengaluru",
+      "pretax_price": 3352.32,
+      "sell_price": 3519.94,
+      "rack_rate": 3492.0,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "2509": {
+      "city": "Bengaluru",
+      "pretax_price": 4203.36,
+      "sell_price": 4413.52,
+      "rack_rate": 4378.5,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "2573": {
+      "city": "Bengaluru",
+      "pretax_price": 3080.39,
+      "sell_price": 3234.41,
+      "rack_rate": 3208.74,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "4301": {
+      "city": "Bengaluru",
+      "pretax_price": 4145.74,
+      "sell_price": 4353.02,
+      "rack_rate": 4318.48,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "4112": {
+      "city": "Bengaluru",
+      "pretax_price": 3885.12,
+      "sell_price": 4079.38,
+      "rack_rate": 4047.0,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "4048": {
+      "city": "Bengaluru",
+      "pretax_price": 0.0,
+      "sell_price": 0.0,
+      "rack_rate": 0.0,
+      "room_type": "",
+      "free_breakfast": false
+    },
+    "4586": {
+      "city": "Bengaluru",
+      "pretax_price": 6027.36,
+      "sell_price": 6328.72,
+      "rack_rate": 6278.5,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "3731": {
+      "city": "Bengaluru",
+      "pretax_price": 4591.01,
+      "sell_price": 4820.57,
+      "rack_rate": 4782.3,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "1351": {
+      "city": "Bengaluru",
+      "pretax_price": 3066.24,
+      "sell_price": 3219.56,
+      "rack_rate": 3194.0,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "4079": {
+      "city": "Bengaluru",
+      "pretax_price": 4195.58,
+      "sell_price": 4405.36,
+      "rack_rate": 4370.4,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "3452": {
+      "city": "Bengaluru",
+      "pretax_price": 4383.36,
+      "sell_price": 4602.52,
+      "rack_rate": 4566.0,
+      "room_type": "MAPLE",
+      "free_breakfast": false
+    },
+    "3059": {
+      "city": "Bengaluru",
+      "pretax_price": 4106.88,
+      "sell_price": 4312.22,
+      "rack_rate": 4278.0,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "4061": {
+      "city": "Bengaluru",
+      "pretax_price": 4504.32,
+      "sell_price": 4729.54,
+      "rack_rate": 4692.0,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "4459": {
+      "city": "Bengaluru",
+      "pretax_price": 3775.68,
+      "sell_price": 3964.46,
+      "rack_rate": 3933.0,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "3623": {
+      "city": "Bengaluru",
+      "pretax_price": 3202.56,
+      "sell_price": 3362.68,
+      "rack_rate": 3336.0,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "3934": {
+      "city": "Bengaluru",
+      "pretax_price": 4387.01,
+      "sell_price": 4606.37,
+      "rack_rate": 4569.8,
+      "room_type": "ACACIA",
+      "free_breakfast": true
+    },
+    "4604": {
+      "city": "Bengaluru",
+      "pretax_price": 4379.98,
+      "sell_price": 4598.98,
+      "rack_rate": 4562.48,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "3097": {
+      "city": "Bengaluru",
+      "pretax_price": 4677.87,
+      "sell_price": 4911.77,
+      "rack_rate": 4872.78,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "159": {
+      "city": "Bengaluru",
+      "pretax_price": 3789.6,
+      "sell_price": 3979.08,
+      "rack_rate": 3947.5,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "3591": {
+      "city": "Bengaluru",
+      "pretax_price": 3237.89,
+      "sell_price": 3399.79,
+      "rack_rate": 3372.8,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "3119": {
+      "city": "Bengaluru",
+      "pretax_price": 3841.92,
+      "sell_price": 4034.02,
+      "rack_rate": 4002.0,
+      "room_type": "MAPLE",
+      "free_breakfast": false
+    },
+    "4072": {
+      "city": "Pune",
+      "pretax_price": 3778.08,
+      "sell_price": 3966.98,
+      "rack_rate": 3935.5,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "3767": {
+      "city": "Pune",
+      "pretax_price": 3709.54,
+      "sell_price": 3895.02,
+      "rack_rate": 3864.1,
+      "room_type": "ACACIA",
+      "free_breakfast": false
+    },
+    "3954": {
+      "city": "Pune",
+      "pretax_price": 5975.04,
+      "sell_price": 6273.8,
+      "rack_rate": 6224.0,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "3558": {
+      "city": "Pune",
+      "pretax_price": 4492.8,
+      "sell_price": 4717.44,
+      "rack_rate": 4680.0,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "4107": {
+      "city": "Pune",
+      "pretax_price": 4090.18,
+      "sell_price": 4294.68,
+      "rack_rate": 4260.6,
+      "room_type": "ACACIA",
+      "free_breakfast": true
+    },
+    "4392": {
+      "city": "Pune",
+      "pretax_price": 4121.01,
+      "sell_price": 4327.07,
+      "rack_rate": 4292.72,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "4280": {
+      "city": "Pune",
+      "pretax_price": 3519.36,
+      "sell_price": 3695.32,
+      "rack_rate": 3666.0,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "3777": {
+      "city": "Pune",
+      "pretax_price": 3909.12,
+      "sell_price": 4104.58,
+      "rack_rate": 4072.0,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "4314": {
+      "city": "Pune",
+      "pretax_price": 3704.14,
+      "sell_price": 3889.34,
+      "rack_rate": 3858.48,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "4441": {
+      "city": "Pune",
+      "pretax_price": 3373.44,
+      "sell_price": 3542.12,
+      "rack_rate": 3514.0,
+      "room_type": "ACACIA",
+      "free_breakfast": false
+    },
+    "3815": {
+      "city": "Pune",
+      "pretax_price": 3790.87,
+      "sell_price": 3980.41,
+      "rack_rate": 3948.82,
+      "room_type": "MAPLE",
+      "free_breakfast": false
+    },
+    "4603": {
+      "city": "Pune",
+      "pretax_price": 5136.0,
+      "sell_price": 5392.8,
+      "rack_rate": 5350.0,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "4263": {
+      "city": "Pune",
+      "pretax_price": 4290.91,
+      "sell_price": 4505.45,
+      "rack_rate": 4469.7,
+      "room_type": "ACACIA",
+      "free_breakfast": false
+    },
+    "2664": {
+      "city": "Pune",
+      "pretax_price": 5360.64,
+      "sell_price": 5628.68,
+      "rack_rate": 5584.0,
+      "room_type": "ACACIA",
+      "free_breakfast": true
+    },
+    "4036": {
+      "city": "Pune",
+      "pretax_price": 7376.64,
+      "sell_price": 7745.48,
+      "rack_rate": 7684.0,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "3561": {
+      "city": "Pune",
+      "pretax_price": 5456.64,
+      "sell_price": 5729.48,
+      "rack_rate": 5684.0,
+      "room_type": "ACACIA",
+      "free_breakfast": true
+    },
+    "3884": {
+      "city": "Pune",
+      "pretax_price": 5048.39,
+      "sell_price": 5300.81,
+      "rack_rate": 5258.74,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "3941": {
+      "city": "Pune",
+      "pretax_price": 3966.72,
+      "sell_price": 4165.06,
+      "rack_rate": 4132.0,
+      "room_type": "ACACIA",
+      "free_breakfast": true
+    },
+    "3026": {
+      "city": "Pune",
+      "pretax_price": 4854.53,
+      "sell_price": 5097.25,
+      "rack_rate": 5056.8,
+      "room_type": "MAPLE",
+      "free_breakfast": false
+    },
+    "4183": {
+      "city": "Pune",
+      "pretax_price": 5009.55,
+      "sell_price": 5260.03,
+      "rack_rate": 5218.28,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "4367": {
+      "city": "Pune",
+      "pretax_price": 4241.47,
+      "sell_price": 4453.55,
+      "rack_rate": 4418.2,
+      "room_type": "ACACIA",
+      "free_breakfast": false
+    },
+    "4492": {
+      "city": "Pune",
+      "pretax_price": 4734.84,
+      "sell_price": 4971.58,
+      "rack_rate": 4932.12,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "4170": {
+      "city": "Pune",
+      "pretax_price": 5695.39,
+      "sell_price": 5980.15,
+      "rack_rate": 5932.7,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "3445": {
+      "city": "Pune",
+      "pretax_price": 5736.52,
+      "sell_price": 6023.34,
+      "rack_rate": 5975.54,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "4076": {
+      "city": "Pune",
+      "pretax_price": 6393.62,
+      "sell_price": 6713.3,
+      "rack_rate": 6660.02,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "4443": {
+      "city": "Pune",
+      "pretax_price": 3527.04,
+      "sell_price": 3703.4,
+      "rack_rate": 3674.0,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "2471": {
+      "city": "Pune",
+      "pretax_price": 4473.6,
+      "sell_price": 4697.28,
+      "rack_rate": 4660.0,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "4295": {
+      "city": "Pune",
+      "pretax_price": 7807.74,
+      "sell_price": 9213.14,
+      "rack_rate": 8133.06,
+      "room_type": "MAPLE",
+      "free_breakfast": true
+    },
+    "3186": {
+      "city": "Pune",
+      "pretax_price": 5628.61,
+      "sell_price": 5910.05,
+      "rack_rate": 5863.14,
+      "room_type": "ACACIA",
+      "free_breakfast": true
+    },
+    "3049": {
+      "city": "Pune",
+      "pretax_price": 3642.87,
+      "sell_price": 3825.01,
+      "rack_rate": 3794.66,
+      "room_type": "MAPLE",
+      "free_breakfast": false
+    },
+    "4606": {
+      "city": "Pune",
+      "pretax_price": 6349.44,
+      "sell_price": 6666.92,
+      "rack_rate": 6614.0,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "4595": {
+      "city": "Pune",
+      "pretax_price": 9565.44,
+      "sell_price": 11287.22,
+      "rack_rate": 9964.0,
+      "room_type": "MAPLE",
+      "free_breakfast": true
+    },
+    "4224": {
+      "city": "Pune",
+      "pretax_price": 5618.55,
+      "sell_price": 5899.47,
+      "rack_rate": 5852.66,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "4109": {
+      "city": "Pune",
+      "pretax_price": 4611.84,
+      "sell_price": 4842.44,
+      "rack_rate": 4804.0,
+      "room_type": "ACACIA",
+      "free_breakfast": false
+    },
+    "4433": {
+      "city": "Pune",
+      "pretax_price": 4777.96,
+      "sell_price": 5016.86,
+      "rack_rate": 4977.04,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "3086": {
+      "city": "Pune",
+      "pretax_price": 4361.32,
+      "sell_price": 4579.38,
+      "rack_rate": 4543.04,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "4545": {
+      "city": "Pune",
+      "pretax_price": 4391.83,
+      "sell_price": 4611.43,
+      "rack_rate": 4574.82,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "2913": {
+      "city": "Pune",
+      "pretax_price": 7216.72,
+      "sell_price": 7577.56,
+      "rack_rate": 7517.42,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "4378": {
+      "city": "Pune",
+      "pretax_price": 5502.11,
+      "sell_price": 5777.21,
+      "rack_rate": 5731.36,
+      "room_type": "OAK",
+      "free_breakfast": false
+    },
+    "4041": {
+      "city": "Pune",
+      "pretax_price": 7561.59,
+      "sell_price": 8922.67,
+      "rack_rate": 7876.66,
+      "room_type": "MAPLE",
+      "free_breakfast": true
+    },
+    "2654": {
+      "city": "Pune",
+      "pretax_price": 6126.72,
+      "sell_price": 6433.06,
+      "rack_rate": 6382.0,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "4315": {
+      "city": "Pune",
+      "pretax_price": 5273.76,
+      "sell_price": 5537.44,
+      "rack_rate": 5493.5,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "4201": {
+      "city": "Pune",
+      "pretax_price": 4698.24,
+      "sell_price": 4933.16,
+      "rack_rate": 4894.0,
+      "room_type": "ACACIA",
+      "free_breakfast": true
+    },
+    "3771": {
+      "city": "Pune",
+      "pretax_price": 3411.57,
+      "sell_price": 3582.15,
+      "rack_rate": 3553.72,
+      "room_type": "OAK",
+      "free_breakfast": true
+    },
+    "3525": {
+      "city": "Pune",
+      "pretax_price": 4954.14,
+      "sell_price": 5201.84,
+      "rack_rate": 5160.56,
+      "room_type": "ACACIA",
+      "free_breakfast": false
+    },
+    "2501": {
+      "city": "Pune",
+      "pretax_price": 4365.77,
+      "sell_price": 4584.05,
+      "rack_rate": 4547.68,
+      "room_type": "OAK",
+      "free_breakfast": false
+    }
+  },
+  "unavailable": {},
+  "generated_at": "2026-10-29T21:41:24+00:00",
+  "source": "https://www.treebo.com/api/v8/pricing/hotels/",
+  "checkin": "2026-11-06",
+  "checkout": "2026-11-07",
+  "roomconfig": "1-0",
+  "currency": "INR"
+}
