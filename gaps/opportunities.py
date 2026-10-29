@@ -97,7 +97,7 @@ def level(place_type):
 def find(city, city_slug, existing, sitemap_places, categories, places_db, hotels, comp_rows, demand, ai_index):
     """Return (opportunities, notes, stats).
 
-    `hotels` must already be limited to hotels that exist on the live site (see gaps/hotel_map.py).
+    `hotels` must already be limited to active hotels in this city.
     City-level and locality/landmark-level opportunities are scored separately (demand is scaled
     within each level) and locality/landmark ones are listed first.
     """

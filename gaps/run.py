@@ -11,7 +11,7 @@ Reads only public web pages and local files; never writes to any database.
 """
 import argparse
 
-from gaps import competitors, hotel_map, live_prices, opportunities, page_issues, sitemaps
+from gaps import competitors, opportunities, page_issues, sitemaps
 from gaps.config import (AI_RESULTS, CITIES, EXCLUDED_FILTERS, INVENTORY, MIN_HOTELS, NOTES_OUT,
                          OPPORTUNITIES_OUT, PAGE_ISSUES_OUT, PLACES, QUERIES)
 from gaps.demand import Demand
@@ -38,22 +38,21 @@ def ai_index():
     return {k: h / n for k, (h, n) in agg.items()}
 
 
-def run_city(key, sm, comp_rows, demand, places_db, hotels, id_map, ai, refresh, skip_pages):
+def run_city(key, sm, comp_rows, demand, places_db, hotels, ai, refresh, skip_pages):
     cfg = CITIES[key]
     city, city_slug = cfg["name"], cfg["slug"]
     print(f"\n== {city}")
-    # sitemap-hotel.xml is the source of truth for which hotels exist: keep only mapped hotels.
-    city_hotels = [h for h in hotels if h["city"] == city and h["hotel_id"] in id_map]
+    city_hotels = [h for h in hotels if h["city"] == city and h["active"]]
     existing, sitemap_places, urls_by_key, cats = sitemaps.coverage(sm, city_slug)
     opps, opp_notes, stats = opportunities.find(city, city_slug, existing, sitemap_places, cats, places_db,
                                                 city_hotels, comp_rows, demand, ai)
-    print(f"{len(existing)} existing place+filter pages; {len(city_hotels)} live-matched hotels; "
+    print(f"{len(existing)} existing place+filter pages; {len(city_hotels)} hotels; "
           f"{stats['opportunities']} opportunities")
 
     issues = []
     if not skip_pages:
-        prices = live_prices.load(city_hotels, id_map, refresh)
-        print(f"live prices for {len(prices)} hotels")
+        prices = {h["hotel_id"]: {"url": h["url"], "price_from": h["price_from"]}
+                  for h in city_hotels if h["price_from"]}
         place_by_slug = {p["slug"]: p for p in opportunities.build_places(
             city, city_slug, sitemap_places, places_db, city_hotels)}
 
@@ -85,7 +84,6 @@ def main():
     hotels = read_json(INVENTORY)
     places_db = read_json(PLACES, [])
     sm = sitemaps.load(args.refresh)
-    id_map = hotel_map.load(hotels, sm["hotel"], args.refresh)
     comp_rows, comp_source = competitors.load(args.refresh)
     demand = Demand()
     ai = ai_index()
@@ -104,12 +102,9 @@ def main():
             "ESTIMATED from data/demand_weights.json (not real search volume)",
             "ai_mention_rate": "output/ai_results.json" if ai else
             "assumed 0.0 (invisible) - output/ai_results.json not found",
-            "inventory": "data/inventory.json (staging; staging prices are placeholders and are never used)",
-            "live_prices": "lower bound of schema.org priceRange on treebo.com hotel pages (brand-tier band)",
-            "hotel_existence": "data/hotel_id_map.json: inventory hotels matched to sitemap-hotel.xml; "
-                               "only matched hotels are used",
+            "inventory": "data/inventory.json built from live treebo.com pages (see data/inventory_notes.json)",
+            "prices": "inventory price_from = lower bound of the hotel page's priceRange (brand-tier band)",
         },
-        "hotel_match": hotel_map.report(hotels, sm["hotel"], id_map),
         "excluded_filters": EXCLUDED_FILTERS,
         "min_matching_hotels": MIN_HOTELS,
         "ranking": "opportunities.json lists locality/landmark opportunities first, then city-level. "
@@ -119,7 +114,7 @@ def main():
             "lists_inactive_hotels": "medium - based on sitemap-hotel.xml",
             "no_quick_answer": "medium - heuristic on the first About paragraph",
             "no_faqs": "high",
-            "breakfast_not_stated": "medium - amenities come from staging inventory",
+            "breakfast_not_stated": "medium - amenities come from hotel page structured data",
         },
         "score_formula": "100 x demand(volume / max volume in city) x inventory(min(hotels,5)/5) "
                          "x gap(1.0 competitor has page, else 0.8) x ai_invisibility(1 - mention rate)",
@@ -127,7 +122,7 @@ def main():
     notes.setdefault("cities", {})
 
     for k in keys:
-        opps, issues, city_notes = run_city(k, sm, comp_rows, demand, places_db, hotels, id_map, ai,
+        opps, issues, city_notes = run_city(k, sm, comp_rows, demand, places_db, hotels, ai,
                                             args.refresh, args.skip_pages)
         all_opps += opps
         all_issues += issues

@@ -2,8 +2,8 @@
   {
     "url": "https://www.treebo.com/hotels-in-pune/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/hotels-in-pune/",
@@ -14,8 +14,8 @@
   {
     "url": "https://www.treebo.com/hotels-in-pune-with-bar/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹1300.",
-    "suggested_fix": "Update the 'from' price to ₹1300 or compute it from live prices."
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹1200.0.",
+    "suggested_fix": "Update the 'from' price to ₹1200.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/hotels-in-pune-with-bar/",
@@ -32,8 +32,8 @@
   {
     "url": "https://www.treebo.com/hotels-in-pune-with-restaurant/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹1200.",
-    "suggested_fix": "Update the 'from' price to ₹1200 or compute it from live prices."
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹1200.0.",
+    "suggested_fix": "Update the 'from' price to ₹1200.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/hotels-in-pune-with-restaurant/",
@@ -50,8 +50,8 @@
   {
     "url": "https://www.treebo.com/2-star-hotels-in-pune/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/2-star-hotels-in-pune/",
@@ -68,8 +68,8 @@
   {
     "url": "https://www.treebo.com/3-star-hotels-in-pune/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/3-star-hotels-in-pune/",
@@ -86,8 +86,8 @@
   {
     "url": "https://www.treebo.com/4-star-hotels-in-pune/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹1300.",
-    "suggested_fix": "Update the 'from' price to ₹1300 or compute it from live prices."
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹1200.0.",
+    "suggested_fix": "Update the 'from' price to ₹1200.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/4-star-hotels-in-pune/",
@@ -104,8 +104,8 @@
   {
     "url": "https://www.treebo.com/budget-hotels-in-pune/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/budget-hotels-in-pune/",
@@ -116,8 +116,8 @@
   {
     "url": "https://www.treebo.com/business-hotels-in-pune/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/business-hotels-in-pune/",
@@ -134,8 +134,8 @@
   {
     "url": "https://www.treebo.com/couple-friendly-hotels-in-pune/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/couple-friendly-hotels-in-pune/",
@@ -146,8 +146,8 @@
   {
     "url": "https://www.treebo.com/family-hotels-in-pune/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/family-hotels-in-pune/",
@@ -164,8 +164,8 @@
   {
     "url": "https://www.treebo.com/guest-house-in-pune/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹1200.",
-    "suggested_fix": "Update the 'from' price to ₹1200 or compute it from live prices."
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹1200.0.",
+    "suggested_fix": "Update the 'from' price to ₹1200.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/guest-house-in-pune/",
@@ -181,6 +181,12 @@
   },
   {
     "url": "https://www.treebo.com/homestay-in-pune/",
+    "issue_type": "outdated_price",
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
+  },
+  {
+    "url": "https://www.treebo.com/homestay-in-pune/",
     "issue_type": "no_quick_answer",
     "detail": "No direct answer near the top (no About/intro text).",
     "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
@@ -194,8 +200,8 @@
   {
     "url": "https://www.treebo.com/near-city-railway-station-in-pune/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/near-city-railway-station-in-pune/",
@@ -212,8 +218,8 @@
   {
     "url": "https://www.treebo.com/near-the-airport-in-pune/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/near-the-airport-in-pune/",
@@ -230,20 +236,92 @@
   {
     "url": "https://www.treebo.com/hotels-in-akurdi-pune/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹1200.",
-    "suggested_fix": "Update the 'from' price to ₹1200 or compute it from live prices."
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/hotels-in-akurdi-pune/",
     "issue_type": "no_quick_answer",
     "detail": "No direct answer near the top (no About/intro text).",
     "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-balewadi-pune/",
+    "issue_type": "outdated_price",
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-balewadi-pune/",
+    "issue_type": "no_quick_answer",
+    "detail": "No direct answer near the top (no About/intro text).",
+    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-balewadi-pune/",
+    "issue_type": "no_faqs",
+    "detail": "No FAQ section or FAQPage schema on the page.",
+    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-baner-pune/",
+    "issue_type": "outdated_price",
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-baner-pune/",
+    "issue_type": "no_quick_answer",
+    "detail": "No direct answer near the top (intro is 99 words of general text with no concrete facts).",
+    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-baner-pune/",
+    "issue_type": "no_faqs",
+    "detail": "No FAQ section or FAQPage schema on the page.",
+    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-bhosari-pune/",
+    "issue_type": "outdated_price",
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-bhosari-pune/",
+    "issue_type": "no_quick_answer",
+    "detail": "No direct answer near the top (no About/intro text).",
+    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-bhosari-pune/",
+    "issue_type": "no_faqs",
+    "detail": "No FAQ section or FAQPage schema on the page.",
+    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-chakan-pune/",
+    "issue_type": "outdated_price",
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-chakan-pune/",
+    "issue_type": "no_quick_answer",
+    "detail": "No direct answer near the top (intro is 103 words of general text with no concrete facts).",
+    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-chakan-pune/",
+    "issue_type": "no_faqs",
+    "detail": "No FAQ section or FAQPage schema on the page.",
+    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
   },
   {
     "url": "https://www.treebo.com/hotels-in-chinchwad-pune/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹1200.",
-    "suggested_fix": "Update the 'from' price to ₹1200 or compute it from live prices."
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/hotels-in-chinchwad-pune/",
@@ -260,8 +338,8 @@
   {
     "url": "https://www.treebo.com/hotels-in-deccan-pune/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/hotels-in-deccan-pune/",
@@ -278,8 +356,8 @@
   {
     "url": "https://www.treebo.com/hotels-in-hadapsar-pune/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/hotels-in-hadapsar-pune/",
@@ -294,10 +372,28 @@
     "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
   },
   {
+    "url": "https://www.treebo.com/hotels-in-hinjewadi-pune/",
+    "issue_type": "outdated_price",
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-hinjewadi-pune/",
+    "issue_type": "no_quick_answer",
+    "detail": "No direct answer near the top (intro is 90 words of general text with no concrete facts).",
+    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-hinjewadi-pune/",
+    "issue_type": "no_faqs",
+    "detail": "No FAQ section or FAQPage schema on the page.",
+    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
+  },
+  {
     "url": "https://www.treebo.com/hotels-in-kharadi-pune/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/hotels-in-kharadi-pune/",
@@ -312,199 +408,109 @@
     "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
   },
   {
-    "url": "https://www.treebo.com/hotels-in-nigdi-pune/",
+    "url": "https://www.treebo.com/hotels-in-koregaon-park-pune/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹1200.",
-    "suggested_fix": "Update the 'from' price to ₹1200 or compute it from live prices."
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
-    "url": "https://www.treebo.com/hotels-in-nigdi-pune/",
+    "url": "https://www.treebo.com/hotels-in-koregaon-park-pune/",
+    "issue_type": "no_quick_answer",
+    "detail": "No direct answer near the top (intro is 98 words of general text with no concrete facts).",
+    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-koregaon-park-pune/",
+    "issue_type": "no_faqs",
+    "detail": "No FAQ section or FAQPage schema on the page.",
+    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-laxmi-colony-pune/",
+    "issue_type": "outdated_price",
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-laxmi-colony-pune/",
     "issue_type": "no_quick_answer",
     "detail": "No direct answer near the top (no About/intro text).",
     "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
   },
   {
-    "url": "https://www.treebo.com/hotels-in-nigdi-pune/",
+    "url": "https://www.treebo.com/hotels-in-laxmi-colony-pune/",
     "issue_type": "no_faqs",
     "detail": "No FAQ section or FAQPage schema on the page.",
     "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
   },
   {
-    "url": "https://www.treebo.com/hotels-in-shivaji-nagar-pune/",
+    "url": "https://www.treebo.com/hotels-in-magarpatta-pune/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
-    "url": "https://www.treebo.com/hotels-in-shivaji-nagar-pune/",
-    "issue_type": "no_quick_answer",
-    "detail": "No direct answer near the top (intro is 91 words of general text with no concrete facts).",
-    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
-  },
-  {
-    "url": "https://www.treebo.com/hotels-in-shivaji-nagar-pune/",
-    "issue_type": "no_faqs",
-    "detail": "No FAQ section or FAQPage schema on the page.",
-    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
-  },
-  {
-    "url": "https://www.treebo.com/3-star-hotels-in-akurdi-pune/",
-    "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹1200.",
-    "suggested_fix": "Update the 'from' price to ₹1200 or compute it from live prices."
-  },
-  {
-    "url": "https://www.treebo.com/3-star-hotels-in-akurdi-pune/",
+    "url": "https://www.treebo.com/hotels-in-magarpatta-pune/",
     "issue_type": "no_quick_answer",
     "detail": "No direct answer near the top (no About/intro text).",
     "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
   },
   {
-    "url": "https://www.treebo.com/3-star-hotels-in-akurdi-pune/",
+    "url": "https://www.treebo.com/hotels-in-magarpatta-pune/",
     "issue_type": "no_faqs",
     "detail": "No FAQ section or FAQPage schema on the page.",
     "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
   },
   {
-    "url": "https://www.treebo.com/3-star-hotels-in-deccan-pune/",
+    "url": "https://www.treebo.com/hotels-in-pimpri-chinchwad-pune/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹1200.0.",
+    "suggested_fix": "Update the 'from' price to ₹1200.0 or compute it from live prices."
   },
   {
-    "url": "https://www.treebo.com/3-star-hotels-in-deccan-pune/",
+    "url": "https://www.treebo.com/hotels-in-pimpri-chinchwad-pune/",
+    "issue_type": "no_quick_answer",
+    "detail": "No direct answer near the top (intro is 96 words of general text with no concrete facts).",
+    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-pimpri-chinchwad-pune/",
+    "issue_type": "no_faqs",
+    "detail": "No FAQ section or FAQPage schema on the page.",
+    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-pimpri-pune/",
+    "issue_type": "outdated_price",
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-pimpri-pune/",
     "issue_type": "no_quick_answer",
     "detail": "No direct answer near the top (no About/intro text).",
     "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
   },
   {
-    "url": "https://www.treebo.com/3-star-hotels-in-deccan-pune/",
+    "url": "https://www.treebo.com/hotels-in-pimpri-pune/",
     "issue_type": "no_faqs",
     "detail": "No FAQ section or FAQPage schema on the page.",
     "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
   },
   {
-    "url": "https://www.treebo.com/3-star-hotels-in-hadapsar-pune/",
+    "url": "https://www.treebo.com/hotels-in-sakore-nagar-pune/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
-    "url": "https://www.treebo.com/3-star-hotels-in-hadapsar-pune/",
+    "url": "https://www.treebo.com/hotels-in-sakore-nagar-pune/",
     "issue_type": "no_quick_answer",
-    "detail": "No direct answer near the top (intro is 90 words of general text with no concrete facts).",
+    "detail": "No direct answer near the top (intro is 99 words of general text with no concrete facts).",
     "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
   },
   {
-    "url": "https://www.treebo.com/3-star-hotels-in-hadapsar-pune/",
-    "issue_type": "no_faqs",
-    "detail": "No FAQ section or FAQPage schema on the page.",
-    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
-  },
-  {
-    "url": "https://www.treebo.com/3-star-hotels-in-kharadi-pune/",
-    "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
-  },
-  {
-    "url": "https://www.treebo.com/3-star-hotels-in-kharadi-pune/",
-    "issue_type": "no_quick_answer",
-    "detail": "No direct answer near the top (no About/intro text).",
-    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
-  },
-  {
-    "url": "https://www.treebo.com/3-star-hotels-in-kharadi-pune/",
-    "issue_type": "no_faqs",
-    "detail": "No FAQ section or FAQPage schema on the page.",
-    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
-  },
-  {
-    "url": "https://www.treebo.com/couple-friendly-hotels-in-akurdi-pune/",
-    "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹1200.",
-    "suggested_fix": "Update the 'from' price to ₹1200 or compute it from live prices."
-  },
-  {
-    "url": "https://www.treebo.com/couple-friendly-hotels-in-akurdi-pune/",
-    "issue_type": "no_quick_answer",
-    "detail": "No direct answer near the top (no About/intro text).",
-    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
-  },
-  {
-    "url": "https://www.treebo.com/couple-friendly-hotels-in-akurdi-pune/",
-    "issue_type": "no_faqs",
-    "detail": "No FAQ section or FAQPage schema on the page.",
-    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
-  },
-  {
-    "url": "https://www.treebo.com/couple-friendly-hotels-in-deccan-pune/",
-    "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
-  },
-  {
-    "url": "https://www.treebo.com/couple-friendly-hotels-in-deccan-pune/",
-    "issue_type": "no_quick_answer",
-    "detail": "No direct answer near the top (no About/intro text).",
-    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
-  },
-  {
-    "url": "https://www.treebo.com/couple-friendly-hotels-in-deccan-pune/",
-    "issue_type": "no_faqs",
-    "detail": "No FAQ section or FAQPage schema on the page.",
-    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
-  },
-  {
-    "url": "https://www.treebo.com/couple-friendly-hotels-in-hadapsar-pune/",
-    "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
-  },
-  {
-    "url": "https://www.treebo.com/couple-friendly-hotels-in-hadapsar-pune/",
-    "issue_type": "no_quick_answer",
-    "detail": "No direct answer near the top (no About/intro text).",
-    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
-  },
-  {
-    "url": "https://www.treebo.com/couple-friendly-hotels-in-hadapsar-pune/",
-    "issue_type": "no_faqs",
-    "detail": "No FAQ section or FAQPage schema on the page.",
-    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
-  },
-  {
-    "url": "https://www.treebo.com/couple-friendly-hotels-in-kharadi-pune/",
-    "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
-  },
-  {
-    "url": "https://www.treebo.com/couple-friendly-hotels-in-kharadi-pune/",
-    "issue_type": "no_quick_answer",
-    "detail": "No direct answer near the top (no About/intro text).",
-    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
-  },
-  {
-    "url": "https://www.treebo.com/couple-friendly-hotels-in-kharadi-pune/",
-    "issue_type": "no_faqs",
-    "detail": "No FAQ section or FAQPage schema on the page.",
-    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
-  },
-  {
-    "url": "https://www.treebo.com/guest-house-in-hadapsar-pune/",
-    "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1320, but the lowest live starting price of the hotels it lists is ₹1200.",
-    "suggested_fix": "Update the 'from' price to ₹1200 or compute it from live prices."
-  },
-  {
-    "url": "https://www.treebo.com/guest-house-in-hadapsar-pune/",
-    "issue_type": "no_quick_answer",
-    "detail": "No direct answer near the top (intro is 108 words of general text with no concrete facts).",
-    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
-  },
-  {
-    "url": "https://www.treebo.com/guest-house-in-hadapsar-pune/",
+    "url": "https://www.treebo.com/hotels-in-sakore-nagar-pune/",
     "issue_type": "no_faqs",
     "detail": "No FAQ section or FAQPage schema on the page.",
     "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
@@ -512,8 +518,8 @@
   {
     "url": "https://www.treebo.com/hotels-in-bangalore/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/hotels-in-bangalore/",
@@ -524,8 +530,8 @@
   {
     "url": "https://www.treebo.com/hotels-in-bangalore-with-gym/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹1200.",
-    "suggested_fix": "Update the 'from' price to ₹1200 or compute it from live prices."
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹1200.0.",
+    "suggested_fix": "Update the 'from' price to ₹1200.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/hotels-in-bangalore-with-gym/",
@@ -542,8 +548,8 @@
   {
     "url": "https://www.treebo.com/hotels-in-bangalore-with-restaurant/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/hotels-in-bangalore-with-restaurant/",
@@ -560,8 +566,8 @@
   {
     "url": "https://www.treebo.com/2-star-hotels-in-bangalore/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/2-star-hotels-in-bangalore/",
@@ -578,8 +584,8 @@
   {
     "url": "https://www.treebo.com/3-star-hotels-in-bangalore/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/3-star-hotels-in-bangalore/",
@@ -608,8 +614,8 @@
   {
     "url": "https://www.treebo.com/budget-hotels-in-bangalore/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/budget-hotels-in-bangalore/",
@@ -620,8 +626,8 @@
   {
     "url": "https://www.treebo.com/business-hotels-in-bangalore/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/business-hotels-in-bangalore/",
@@ -632,8 +638,8 @@
   {
     "url": "https://www.treebo.com/couple-friendly-hotels-in-bangalore/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/couple-friendly-hotels-in-bangalore/",
@@ -644,8 +650,8 @@
   {
     "url": "https://www.treebo.com/family-hotels-in-bangalore/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/family-hotels-in-bangalore/",
@@ -658,6 +664,12 @@
     "issue_type": "no_faqs",
     "detail": "No FAQ section or FAQPage schema on the page.",
     "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
+  },
+  {
+    "url": "https://www.treebo.com/guest-house-in-bangalore/",
+    "issue_type": "outdated_price",
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/guest-house-in-bangalore/",
@@ -674,8 +686,8 @@
   {
     "url": "https://www.treebo.com/near-city-railway-station-in-bangalore/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/near-city-railway-station-in-bangalore/",
@@ -688,6 +700,12 @@
     "issue_type": "no_faqs",
     "detail": "No FAQ section or FAQPage schema on the page.",
     "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
+  },
+  {
+    "url": "https://www.treebo.com/near-the-airport-in-bangalore/",
+    "issue_type": "outdated_price",
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹1200.0.",
+    "suggested_fix": "Update the 'from' price to ₹1200.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/near-the-airport-in-bangalore/",
@@ -703,15 +721,81 @@
   },
   {
     "url": "https://www.treebo.com/service-apartments-in-bangalore/",
+    "issue_type": "outdated_price",
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹1200.0.",
+    "suggested_fix": "Update the 'from' price to ₹1200.0 or compute it from live prices."
+  },
+  {
+    "url": "https://www.treebo.com/service-apartments-in-bangalore/",
     "issue_type": "no_quick_answer",
     "detail": "No direct answer near the top (intro is 91 words of general text with no concrete facts).",
     "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
   },
   {
+    "url": "https://www.treebo.com/hotels-in-banashankari-bangalore/",
+    "issue_type": "outdated_price",
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹1200.0.",
+    "suggested_fix": "Update the 'from' price to ₹1200.0 or compute it from live prices."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-banashankari-bangalore/",
+    "issue_type": "no_quick_answer",
+    "detail": "No direct answer near the top (intro is 95 words of general text with no concrete facts).",
+    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-banashankari-bangalore/",
+    "issue_type": "no_faqs",
+    "detail": "No FAQ section or FAQPage schema on the page.",
+    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-bannerghatta-road-bangalore/",
+    "issue_type": "outdated_price",
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-bannerghatta-road-bangalore/",
+    "issue_type": "no_quick_answer",
+    "detail": "No direct answer near the top (intro is 93 words of general text with no concrete facts).",
+    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-basavanagudi-bangalore/",
+    "issue_type": "outdated_price",
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹1200.0.",
+    "suggested_fix": "Update the 'from' price to ₹1200.0 or compute it from live prices."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-basavanagudi-bangalore/",
+    "issue_type": "no_quick_answer",
+    "detail": "No direct answer near the top (no About/intro text).",
+    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-bellandur-bangalore/",
+    "issue_type": "outdated_price",
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-bellandur-bangalore/",
+    "issue_type": "no_quick_answer",
+    "detail": "No direct answer near the top (no About/intro text).",
+    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-bellandur-bangalore/",
+    "issue_type": "no_faqs",
+    "detail": "No FAQ section or FAQPage schema on the page.",
+    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
+  },
+  {
     "url": "https://www.treebo.com/hotels-in-bommasandra-bangalore/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹1200.",
-    "suggested_fix": "Update the 'from' price to ₹1200 or compute it from live prices."
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/hotels-in-bommasandra-bangalore/",
@@ -726,22 +810,154 @@
     "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
   },
   {
-    "url": "https://www.treebo.com/hotels-in-indiranagar-bangalore/",
+    "url": "https://www.treebo.com/hotels-in-brigade-road-bangalore/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹1200.",
-    "suggested_fix": "Update the 'from' price to ₹1200 or compute it from live prices."
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹1200.0.",
+    "suggested_fix": "Update the 'from' price to ₹1200.0 or compute it from live prices."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-brigade-road-bangalore/",
+    "issue_type": "no_quick_answer",
+    "detail": "No direct answer near the top (no About/intro text).",
+    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-chikkajala-bangalore/",
+    "issue_type": "outdated_price",
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹1200.0.",
+    "suggested_fix": "Update the 'from' price to ₹1200.0 or compute it from live prices."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-chikkajala-bangalore/",
+    "issue_type": "no_quick_answer",
+    "detail": "No direct answer near the top (no About/intro text).",
+    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-chikkajala-bangalore/",
+    "issue_type": "no_faqs",
+    "detail": "No FAQ section or FAQPage schema on the page.",
+    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-domlur-bangalore/",
+    "issue_type": "outdated_price",
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-domlur-bangalore/",
+    "issue_type": "no_quick_answer",
+    "detail": "No direct answer near the top (intro is 98 words of general text with no concrete facts).",
+    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-domlur-bangalore/",
+    "issue_type": "no_faqs",
+    "detail": "No FAQ section or FAQPage schema on the page.",
+    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-electronic-city-bangalore/",
+    "issue_type": "outdated_price",
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-electronic-city-bangalore/",
+    "issue_type": "no_quick_answer",
+    "detail": "No direct answer near the top (no About/intro text).",
+    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-electronic-city-bangalore/",
+    "issue_type": "no_faqs",
+    "detail": "No FAQ section or FAQPage schema on the page.",
+    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-gollahalli-bangalore/",
+    "issue_type": "outdated_price",
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-gollahalli-bangalore/",
+    "issue_type": "no_quick_answer",
+    "detail": "No direct answer near the top (no About/intro text).",
+    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-gollahalli-bangalore/",
+    "issue_type": "no_faqs",
+    "detail": "No FAQ section or FAQPage schema on the page.",
+    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-hebbal-bangalore/",
+    "issue_type": "outdated_price",
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹1200.0.",
+    "suggested_fix": "Update the 'from' price to ₹1200.0 or compute it from live prices."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-hebbal-bangalore/",
+    "issue_type": "no_quick_answer",
+    "detail": "No direct answer near the top (intro is 95 words of general text with no concrete facts).",
+    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-hebbal-bangalore/",
+    "issue_type": "no_faqs",
+    "detail": "No FAQ section or FAQPage schema on the page.",
+    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-hrbr-layout-bangalore/",
+    "issue_type": "outdated_price",
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹1200.0.",
+    "suggested_fix": "Update the 'from' price to ₹1200.0 or compute it from live prices."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-hrbr-layout-bangalore/",
+    "issue_type": "no_quick_answer",
+    "detail": "No direct answer near the top (no About/intro text).",
+    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-hrbr-layout-bangalore/",
+    "issue_type": "no_faqs",
+    "detail": "No FAQ section or FAQPage schema on the page.",
+    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-hsr-layout-bangalore/",
+    "issue_type": "outdated_price",
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-hsr-layout-bangalore/",
+    "issue_type": "no_quick_answer",
+    "detail": "No direct answer near the top (intro is 96 words of general text with no concrete facts).",
+    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
+  },
+  {
+    "url": "https://www.treebo.com/hotels-in-hsr-layout-bangalore/",
+    "issue_type": "no_faqs",
+    "detail": "No FAQ section or FAQPage schema on the page.",
+    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
   },
   {
     "url": "https://www.treebo.com/hotels-in-indiranagar-bangalore/",
-    "issue_type": "breakfast_not_stated",
-    "detail": "2 of 3 Treebo hotels here include breakfast, but breakfast included is not stated clearly in the quick answer or FAQs.",
-    "suggested_fix": "State 'breakfast included' in the quick answer and add an FAQ such as 'Do Treebo hotels here include breakfast?' with the hotel names, from inventory data."
+    "issue_type": "outdated_price",
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹1200.0.",
+    "suggested_fix": "Update the 'from' price to ₹1200.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/hotels-in-jayanagar-bangalore/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
     "url": "https://www.treebo.com/hotels-in-jayanagar-bangalore/",
@@ -756,219 +972,15 @@
     "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
   },
   {
-    "url": "https://www.treebo.com/hotels-in-koramangala-bangalore/",
+    "url": "https://www.treebo.com/hotels-in-jp-nagar-bangalore/",
     "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
+    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.0.",
+    "suggested_fix": "Update the 'from' price to ₹999.0 or compute it from live prices."
   },
   {
-    "url": "https://www.treebo.com/hotels-in-koramangala-bangalore/",
+    "url": "https://www.treebo.com/hotels-in-jp-nagar-bangalore/",
     "issue_type": "no_quick_answer",
-    "detail": "No direct answer near the top (intro is 69 words of general text with no concrete facts).",
+    "detail": "No direct answer near the top (intro is 42 words of general text with no concrete facts).",
     "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
-  },
-  {
-    "url": "https://www.treebo.com/hotels-in-whitefield-bangalore/",
-    "issue_type": "no_quick_answer",
-    "detail": "No direct answer near the top (intro is 84 words of general text with no concrete facts).",
-    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
-  },
-  {
-    "url": "https://www.treebo.com/hotels-in-whitefield-bangalore/",
-    "issue_type": "no_faqs",
-    "detail": "No FAQ section or FAQPage schema on the page.",
-    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
-  },
-  {
-    "url": "https://www.treebo.com/2-star-hotels-in-bommasandra-bangalore/",
-    "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹1200.",
-    "suggested_fix": "Update the 'from' price to ₹1200 or compute it from live prices."
-  },
-  {
-    "url": "https://www.treebo.com/2-star-hotels-in-bommasandra-bangalore/",
-    "issue_type": "no_quick_answer",
-    "detail": "No direct answer near the top (no About/intro text).",
-    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
-  },
-  {
-    "url": "https://www.treebo.com/2-star-hotels-in-bommasandra-bangalore/",
-    "issue_type": "no_faqs",
-    "detail": "No FAQ section or FAQPage schema on the page.",
-    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
-  },
-  {
-    "url": "https://www.treebo.com/2-star-hotels-in-indiranagar-bangalore/",
-    "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹1200.",
-    "suggested_fix": "Update the 'from' price to ₹1200 or compute it from live prices."
-  },
-  {
-    "url": "https://www.treebo.com/2-star-hotels-in-indiranagar-bangalore/",
-    "issue_type": "no_quick_answer",
-    "detail": "No direct answer near the top (no About/intro text).",
-    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
-  },
-  {
-    "url": "https://www.treebo.com/2-star-hotels-in-indiranagar-bangalore/",
-    "issue_type": "no_faqs",
-    "detail": "No FAQ section or FAQPage schema on the page.",
-    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
-  },
-  {
-    "url": "https://www.treebo.com/2-star-hotels-in-koramangala-bangalore/",
-    "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
-  },
-  {
-    "url": "https://www.treebo.com/2-star-hotels-in-koramangala-bangalore/",
-    "issue_type": "no_quick_answer",
-    "detail": "No direct answer near the top (no About/intro text).",
-    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
-  },
-  {
-    "url": "https://www.treebo.com/2-star-hotels-in-koramangala-bangalore/",
-    "issue_type": "no_faqs",
-    "detail": "No FAQ section or FAQPage schema on the page.",
-    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
-  },
-  {
-    "url": "https://www.treebo.com/3-star-hotels-in-bommasandra-bangalore/",
-    "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹1200.",
-    "suggested_fix": "Update the 'from' price to ₹1200 or compute it from live prices."
-  },
-  {
-    "url": "https://www.treebo.com/3-star-hotels-in-bommasandra-bangalore/",
-    "issue_type": "no_quick_answer",
-    "detail": "No direct answer near the top (no About/intro text).",
-    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
-  },
-  {
-    "url": "https://www.treebo.com/3-star-hotels-in-bommasandra-bangalore/",
-    "issue_type": "no_faqs",
-    "detail": "No FAQ section or FAQPage schema on the page.",
-    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
-  },
-  {
-    "url": "https://www.treebo.com/3-star-hotels-in-indiranagar-bangalore/",
-    "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹1200.",
-    "suggested_fix": "Update the 'from' price to ₹1200 or compute it from live prices."
-  },
-  {
-    "url": "https://www.treebo.com/3-star-hotels-in-indiranagar-bangalore/",
-    "issue_type": "no_quick_answer",
-    "detail": "No direct answer near the top (no About/intro text).",
-    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
-  },
-  {
-    "url": "https://www.treebo.com/3-star-hotels-in-indiranagar-bangalore/",
-    "issue_type": "no_faqs",
-    "detail": "No FAQ section or FAQPage schema on the page.",
-    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
-  },
-  {
-    "url": "https://www.treebo.com/3-star-hotels-in-jayanagar-bangalore/",
-    "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹1200.",
-    "suggested_fix": "Update the 'from' price to ₹1200 or compute it from live prices."
-  },
-  {
-    "url": "https://www.treebo.com/3-star-hotels-in-jayanagar-bangalore/",
-    "issue_type": "no_quick_answer",
-    "detail": "No direct answer near the top (no About/intro text).",
-    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
-  },
-  {
-    "url": "https://www.treebo.com/3-star-hotels-in-jayanagar-bangalore/",
-    "issue_type": "no_faqs",
-    "detail": "No FAQ section or FAQPage schema on the page.",
-    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
-  },
-  {
-    "url": "https://www.treebo.com/3-star-hotels-in-koramangala-bangalore/",
-    "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
-  },
-  {
-    "url": "https://www.treebo.com/3-star-hotels-in-koramangala-bangalore/",
-    "issue_type": "no_quick_answer",
-    "detail": "No direct answer near the top (intro is 98 words of general text with no concrete facts).",
-    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
-  },
-  {
-    "url": "https://www.treebo.com/3-star-hotels-in-koramangala-bangalore/",
-    "issue_type": "no_faqs",
-    "detail": "No FAQ section or FAQPage schema on the page.",
-    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
-  },
-  {
-    "url": "https://www.treebo.com/3-star-hotels-in-whitefield-bangalore/",
-    "issue_type": "no_quick_answer",
-    "detail": "No direct answer near the top (intro is 108 words of general text with no concrete facts).",
-    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
-  },
-  {
-    "url": "https://www.treebo.com/3-star-hotels-in-whitefield-bangalore/",
-    "issue_type": "no_faqs",
-    "detail": "No FAQ section or FAQPage schema on the page.",
-    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
-  },
-  {
-    "url": "https://www.treebo.com/business-hotels-in-bommasandra-bangalore/",
-    "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹1200.",
-    "suggested_fix": "Update the 'from' price to ₹1200 or compute it from live prices."
-  },
-  {
-    "url": "https://www.treebo.com/business-hotels-in-bommasandra-bangalore/",
-    "issue_type": "no_quick_answer",
-    "detail": "No direct answer near the top (no About/intro text).",
-    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
-  },
-  {
-    "url": "https://www.treebo.com/business-hotels-in-bommasandra-bangalore/",
-    "issue_type": "no_faqs",
-    "detail": "No FAQ section or FAQPage schema on the page.",
-    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
-  },
-  {
-    "url": "https://www.treebo.com/business-hotels-in-indiranagar-bangalore/",
-    "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹1200.",
-    "suggested_fix": "Update the 'from' price to ₹1200 or compute it from live prices."
-  },
-  {
-    "url": "https://www.treebo.com/business-hotels-in-indiranagar-bangalore/",
-    "issue_type": "no_quick_answer",
-    "detail": "No direct answer near the top (no About/intro text).",
-    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
-  },
-  {
-    "url": "https://www.treebo.com/business-hotels-in-indiranagar-bangalore/",
-    "issue_type": "no_faqs",
-    "detail": "No FAQ section or FAQPage schema on the page.",
-    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
-  },
-  {
-    "url": "https://www.treebo.com/business-hotels-in-jayanagar-bangalore/",
-    "issue_type": "outdated_price",
-    "detail": "Page says hotels from ₹1300, but the lowest live starting price of the hotels it lists is ₹999.",
-    "suggested_fix": "Update the 'from' price to ₹999 or compute it from live prices."
-  },
-  {
-    "url": "https://www.treebo.com/business-hotels-in-jayanagar-bangalore/",
-    "issue_type": "no_quick_answer",
-    "detail": "No direct answer near the top (no About/intro text).",
-    "suggested_fix": "Add a 1-2 sentence quick answer under the H1: how many Treebo hotels, starting price and 2-3 hotel names, from inventory data."
-  },
-  {
-    "url": "https://www.treebo.com/business-hotels-in-jayanagar-bangalore/",
-    "issue_type": "no_faqs",
-    "detail": "No FAQ section or FAQPage schema on the page.",
-    "suggested_fix": "Add 4-5 FAQs with FAQPage schema answering common traveller questions for this place + filter."
   }
 ]

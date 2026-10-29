@@ -13,8 +13,6 @@ COMPETITOR_FETCHED = DATA / "competitor_urls_fetched.csv"  # from FabHotels/OYO 
 COMPETITOR_SAMPLE = DATA / "competitor_urls_sample.csv"    # hand-made fallback
 DEMAND_WEIGHTS = DATA / "demand_weights.json"
 KEYWORD_VOLUMES = DATA / "keyword_volumes.csv"             # real volumes (drop-in, takes priority)
-LIVE_PRICES = DATA / "live_prices.json"
-HOTEL_ID_MAP = DATA / "hotel_id_map.json"
 PAGE_SNAPSHOTS = DATA / "page_snapshots.json"
 AI_RESULTS = OUTPUT / "ai_results.json"
 QUERIES = OUTPUT / "queries.json"
@@ -27,10 +25,10 @@ TREEBO = "https://www.treebo.com"
 USER_AGENT = "Mozilla/5.0 (compatible; TreeboAEOAgent/0.1; hackathon research)"
 REQUEST_DELAY_S = 2.0
 
-# CLI name -> inventory city name, Treebo city slug, staging city id
+# CLI name -> inventory city name, Treebo city slug
 CITIES = {
-    "pune": {"name": "Pune", "slug": "pune", "staging_id": 14},
-    "bengaluru": {"name": "Bengaluru", "slug": "bangalore", "staging_id": 1},
+    "pune": {"name": "Pune", "slug": "pune"},
+    "bengaluru": {"name": "Bengaluru", "slug": "bangalore"},
 }
 
 MATCH_RADIUS_KM = 2.5
@@ -44,8 +42,9 @@ EXCLUDED_FILTERS = {
 }
 BREAKFAST_SHARE = 0.5  # flag a page if more than this share of its hotels include breakfast
 
-# Amenity filters we consider (inventory slugs). Treebo has city-level pages only for the first four.
+# Amenity filters we consider (slugs as they appear on live hotel pages). Treebo has city-level pages
+# only for the first four. Live pages say "Limited Parking", so we keep that wording.
 AMENITY_FILTERS = [
-    "restaurant", "bar", "swimming-pool", "gym", "parking", "banquet-hall", "conference-hall",
-    "kitchenette", "balcony", "spa",
+    "restaurant", "bar", "swimming-pool", "gym", "limited-parking", "banquet-hall",
+    "roof-top-restaurant", "cab-service", "spa",
 ]

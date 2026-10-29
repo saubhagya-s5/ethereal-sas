@@ -3,9 +3,9 @@
 Reads the server-rendered page (window.__INITIAL_STATE__ / __APOLLO_STATE__, JSON-LD) — no API calls.
 Checks:
   lists_inactive_hotels  page lists a hotel id that is not in sitemap-hotel.xml (source of truth for
-                         which hotels exist; staging active flags are stale)
-  outdated_price         page "from ₹X" (minPrice) differs from the lowest live starting price of the
-                         hotels it lists (data/live_prices.json). Skipped if no live price. LOW confidence.
+                         which hotels exist)
+  outdated_price         page "from ₹X" (minPrice) differs from the lowest price_from of the hotels it
+                         lists (inventory). Skipped if no price. LOW confidence.
   no_quick_answer        "About" text doesn't open with a short (<=60 words) answer containing a number
   no_faqs                no FAQPage schema / FAQ content on the page
   breakfast_not_stated   city/locality page where most matching hotels include breakfast, but neither the
@@ -80,7 +80,6 @@ def check(pages, live_prices, hotel_sitemap, hotels_for_key, refresh=False):
     """pages: [(url, key)]; hotels_for_key(key) -> inventory hotels (existing live) for that page's place."""
     cache = read_json(PAGE_SNAPSHOTS, {})
     live_ids = {m.group(1) for u in hotel_sitemap for m in [re.search(r"-(\d+)/?$", u)] if m}
-    # Listing pages use live hotel ids; live_prices is keyed by inventory id, so key by the live URL's id.
     live_by_page_id = {re.search(r"-(\d+)/?$", v["url"]).group(1): v["price_from"] for v in live_prices.values()}
     issues = []
     for url, key in pages:
