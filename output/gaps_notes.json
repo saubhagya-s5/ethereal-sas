@@ -1,0 +1,358 @@
+{
+  "sources": {
+    "treebo_pages": "treebo.com public sitemaps (data/sitemaps/)",
+    "competitor_urls": "fetched (FabHotels/OYO public sitemaps, cached)",
+    "search_volume": "ESTIMATED from data/demand_weights.json (not real search volume)",
+    "ai_mention_rate": "assumed 0.0 (invisible) - output/ai_results.json not found",
+    "inventory": "data/inventory.json (staging; staging prices are placeholders and are never used)",
+    "live_prices": "lower bound of schema.org priceRange on treebo.com hotel pages (brand-tier band)",
+    "hotel_existence": "data/hotel_id_map.json: inventory hotels matched to sitemap-hotel.xml; only matched hotels are used"
+  },
+  "hotel_match": [
+    {
+      "city": "Pune",
+      "live_hotels_in_sitemap": 53,
+      "inventory_hotels": 49,
+      "inventory_active": 13,
+      "matched": 11,
+      "matched_active": 9,
+      "match_rate_all": 0.224,
+      "match_rate_active": 0.692,
+      "live_hotels_missing_from_inventory": 42,
+      "inactive_in_staging_but_live": 2
+    },
+    {
+      "city": "Bengaluru",
+      "live_hotels_in_sitemap": 81,
+      "inventory_hotels": 106,
+      "inventory_active": 40,
+      "matched": 15,
+      "matched_active": 5,
+      "match_rate_all": 0.142,
+      "match_rate_active": 0.125,
+      "live_hotels_missing_from_inventory": 66,
+      "inactive_in_staging_but_live": 10
+    }
+  ],
+  "excluded_filters": {
+    "free-breakfast": "Treebo deliberately excludes Free Breakfast from amenity pages (treebo/webapp/common/constants/common_constants.py:285). Checked as a page issue instead (breakfast_not_stated)."
+  },
+  "min_matching_hotels": {
+    "city": 5,
+    "locality": 2,
+    "landmark": 2
+  },
+  "ranking": "opportunities.json lists locality/landmark opportunities first, then city-level. Each level is scored separately (demand scaled within the level); see cities.*.coverage.ranking.",
+  "issue_confidence": {
+    "outdated_price": "low - prices change daily and the live price is a brand-tier band",
+    "lists_inactive_hotels": "medium - based on sitemap-hotel.xml",
+    "no_quick_answer": "medium - heuristic on the first About paragraph",
+    "no_faqs": "high",
+    "breakfast_not_stated": "medium - amenities come from staging inventory"
+  },
+  "score_formula": "100 x demand(volume / max volume in city) x inventory(min(hotels,5)/5) x gap(1.0 competitor has page, else 0.8) x ai_invisibility(1 - mention rate)",
+  "cities": {
+    "Pune": {
+      "coverage": {
+        "existing_pages": 1131,
+        "by_type": {
+          "city+none": 1,
+          "city+category": 11,
+          "city+amenity": 2,
+          "locality+none": 376,
+          "locality+category": 33,
+          "locality+amenity": 0,
+          "landmark+none": 228,
+          "landmark+category": 480,
+          "landmark+amenity": 0
+        },
+        "amenity_pages": [
+          "bar",
+          "restaurant"
+        ],
+        "places_considered": 605,
+        "candidates_before_dedup": 36,
+        "opportunities": 13,
+        "ranking": {
+          "local": [
+            "pun-bhandarkar-road-budget-hotels",
+            "pun-bhandarkar-road-couple-friendly-hotels",
+            "pun-thermax-chowk-budget-hotels",
+            "pun-bhandarkar-road-business-hotels",
+            "pun-bhandarkar-road-family-hotels",
+            "pun-thermax-chowk-business-hotels",
+            "pun-thermax-chowk-family-hotels",
+            "pun-bhandarkar-road-parking",
+            "pun-kharadi-parking",
+            "pun-thermax-chowk-parking",
+            "pun-thermax-chowk-banquet-hall",
+            "pun-thermax-chowk-bar"
+          ],
+          "city": [
+            "pun-city-parking"
+          ]
+        }
+      },
+      "opportunities": {
+        "pun-city-parking": {
+          "level": "city",
+          "search_volume": "estimated",
+          "ai_mention_rate": "assumed_invisible (no ai_results)",
+          "factors": {
+            "demand": 1.0,
+            "inventory": 1.0,
+            "gap": 0.8,
+            "ai_invisibility": 1.0
+          }
+        },
+        "pun-bhandarkar-road-budget-hotels": {
+          "level": "local",
+          "search_volume": "estimated",
+          "ai_mention_rate": "assumed_invisible (no ai_results)",
+          "factors": {
+            "demand": 1.0,
+            "inventory": 0.4,
+            "gap": 0.8,
+            "ai_invisibility": 1.0
+          }
+        },
+        "pun-bhandarkar-road-business-hotels": {
+          "level": "local",
+          "search_volume": "estimated",
+          "ai_mention_rate": "assumed_invisible (no ai_results)",
+          "factors": {
+            "demand": 0.303,
+            "inventory": 0.4,
+            "gap": 0.8,
+            "ai_invisibility": 1.0
+          }
+        },
+        "pun-bhandarkar-road-couple-friendly-hotels": {
+          "level": "local",
+          "search_volume": "estimated",
+          "ai_mention_rate": "assumed_invisible (no ai_results)",
+          "factors": {
+            "demand": 0.894,
+            "inventory": 0.4,
+            "gap": 0.8,
+            "ai_invisibility": 1.0
+          }
+        },
+        "pun-bhandarkar-road-family-hotels": {
+          "level": "local",
+          "search_volume": "estimated",
+          "ai_mention_rate": "assumed_invisible (no ai_results)",
+          "factors": {
+            "demand": 0.303,
+            "inventory": 0.4,
+            "gap": 0.8,
+            "ai_invisibility": 1.0
+          }
+        },
+        "pun-bhandarkar-road-parking": {
+          "level": "local",
+          "search_volume": "estimated",
+          "ai_mention_rate": "assumed_invisible (no ai_results)",
+          "factors": {
+            "demand": 0.167,
+            "inventory": 0.4,
+            "gap": 0.8,
+            "ai_invisibility": 1.0
+          }
+        },
+        "pun-kharadi-parking": {
+          "level": "local",
+          "search_volume": "estimated",
+          "ai_mention_rate": "assumed_invisible (no ai_results)",
+          "factors": {
+            "demand": 0.167,
+            "inventory": 0.4,
+            "gap": 0.8,
+            "ai_invisibility": 1.0
+          }
+        },
+        "pun-thermax-chowk-budget-hotels": {
+          "level": "local",
+          "search_volume": "estimated",
+          "ai_mention_rate": "assumed_invisible (no ai_results)",
+          "factors": {
+            "demand": 0.5,
+            "inventory": 0.6,
+            "gap": 0.8,
+            "ai_invisibility": 1.0
+          }
+        },
+        "pun-thermax-chowk-business-hotels": {
+          "level": "local",
+          "search_volume": "estimated",
+          "ai_mention_rate": "assumed_invisible (no ai_results)",
+          "factors": {
+            "demand": 0.152,
+            "inventory": 0.6,
+            "gap": 0.8,
+            "ai_invisibility": 1.0
+          }
+        },
+        "pun-thermax-chowk-family-hotels": {
+          "level": "local",
+          "search_volume": "estimated",
+          "ai_mention_rate": "assumed_invisible (no ai_results)",
+          "factors": {
+            "demand": 0.152,
+            "inventory": 0.6,
+            "gap": 0.8,
+            "ai_invisibility": 1.0
+          }
+        },
+        "pun-thermax-chowk-bar": {
+          "level": "local",
+          "search_volume": "estimated",
+          "ai_mention_rate": "assumed_invisible (no ai_results)",
+          "factors": {
+            "demand": 0.045,
+            "inventory": 0.4,
+            "gap": 0.8,
+            "ai_invisibility": 1.0
+          }
+        },
+        "pun-thermax-chowk-parking": {
+          "level": "local",
+          "search_volume": "estimated",
+          "ai_mention_rate": "assumed_invisible (no ai_results)",
+          "factors": {
+            "demand": 0.076,
+            "inventory": 0.6,
+            "gap": 0.8,
+            "ai_invisibility": 1.0
+          }
+        },
+        "pun-thermax-chowk-banquet-hall": {
+          "level": "local",
+          "search_volume": "estimated",
+          "ai_mention_rate": "assumed_invisible (no ai_results)",
+          "factors": {
+            "demand": 0.061,
+            "inventory": 0.4,
+            "gap": 0.8,
+            "ai_invisibility": 1.0
+          }
+        }
+      }
+    },
+    "Bengaluru": {
+      "coverage": {
+        "existing_pages": 4251,
+        "by_type": {
+          "city+none": 1,
+          "city+category": 11,
+          "city+amenity": 2,
+          "locality+none": 872,
+          "locality+category": 119,
+          "locality+amenity": 0,
+          "landmark+none": 610,
+          "landmark+category": 2636,
+          "landmark+amenity": 0
+        },
+        "amenity_pages": [
+          "gym",
+          "restaurant"
+        ],
+        "places_considered": 1483,
+        "candidates_before_dedup": 32,
+        "opportunities": 7,
+        "ranking": {
+          "local": [
+            "ban-indiranagar-budget-hotels",
+            "ban-koramangala-budget-hotels",
+            "ban-wilson-garden-budget-hotels",
+            "ban-tata-motors-kht-domlur-budget-hotels",
+            "ban-wilson-garden-parking",
+            "ban-tata-motors-kht-domlur-parking"
+          ],
+          "city": [
+            "ban-city-parking"
+          ]
+        }
+      },
+      "opportunities": {
+        "ban-city-parking": {
+          "level": "city",
+          "search_volume": "estimated",
+          "ai_mention_rate": "assumed_invisible (no ai_results)",
+          "factors": {
+            "demand": 1.0,
+            "inventory": 1.0,
+            "gap": 0.8,
+            "ai_invisibility": 1.0
+          }
+        },
+        "ban-indiranagar-budget-hotels": {
+          "level": "local",
+          "search_volume": "estimated",
+          "ai_mention_rate": "assumed_invisible (no ai_results)",
+          "factors": {
+            "demand": 1.0,
+            "inventory": 0.4,
+            "gap": 1.0,
+            "ai_invisibility": 1.0
+          }
+        },
+        "ban-koramangala-budget-hotels": {
+          "level": "local",
+          "search_volume": "estimated",
+          "ai_mention_rate": "assumed_invisible (no ai_results)",
+          "factors": {
+            "demand": 0.5,
+            "inventory": 0.4,
+            "gap": 1.0,
+            "ai_invisibility": 1.0
+          }
+        },
+        "ban-wilson-garden-budget-hotels": {
+          "level": "local",
+          "search_volume": "estimated",
+          "ai_mention_rate": "assumed_invisible (no ai_results)",
+          "factors": {
+            "demand": 0.5,
+            "inventory": 0.4,
+            "gap": 0.8,
+            "ai_invisibility": 1.0
+          }
+        },
+        "ban-wilson-garden-parking": {
+          "level": "local",
+          "search_volume": "estimated",
+          "ai_mention_rate": "assumed_invisible (no ai_results)",
+          "factors": {
+            "demand": 0.079,
+            "inventory": 0.4,
+            "gap": 0.8,
+            "ai_invisibility": 1.0
+          }
+        },
+        "ban-tata-motors-kht-domlur-budget-hotels": {
+          "level": "local",
+          "search_volume": "estimated",
+          "ai_mention_rate": "assumed_invisible (no ai_results)",
+          "factors": {
+            "demand": 0.5,
+            "inventory": 0.4,
+            "gap": 0.8,
+            "ai_invisibility": 1.0
+          }
+        },
+        "ban-tata-motors-kht-domlur-parking": {
+          "level": "local",
+          "search_volume": "estimated",
+          "ai_mention_rate": "assumed_invisible (no ai_results)",
+          "factors": {
+            "demand": 0.079,
+            "inventory": 0.4,
+            "gap": 0.8,
+            "ai_invisibility": 1.0
+          }
+        }
+      }
+    }
+  }
+}

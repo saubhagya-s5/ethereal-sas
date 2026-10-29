@@ -1,0 +1,379 @@
+[
+  {
+    "opp_id": "ban-indiranagar-budget-hotels",
+    "city": "Bengaluru",
+    "place_type": "locality",
+    "place": "Indiranagar",
+    "filter_type": "category",
+    "filter": "budget-hotels",
+    "proposed_url": "https://www.treebo.com/budget-hotels-in-indiranagar-bangalore/",
+    "exists_on_treebo": false,
+    "competitors_with_page": [
+      "https://www.fabhotels.com/list-of-budget-hotels-in-indiranagar-bangalore/"
+    ],
+    "search_volume": 2400,
+    "matching_hotel_ids": [
+      "151",
+      "234"
+    ],
+    "ai_mention_rate": 0.0,
+    "score": 40.0
+  },
+  {
+    "opp_id": "ban-koramangala-budget-hotels",
+    "city": "Bengaluru",
+    "place_type": "locality",
+    "place": "Koramangala",
+    "filter_type": "category",
+    "filter": "budget-hotels",
+    "proposed_url": "https://www.treebo.com/budget-hotels-in-koramangala-bangalore/",
+    "exists_on_treebo": false,
+    "competitors_with_page": [
+      "https://www.fabhotels.com/list-of-budget-hotels-in-koramangala-bangalore/"
+    ],
+    "search_volume": 1200,
+    "matching_hotel_ids": [
+      "332",
+      "444"
+    ],
+    "ai_mention_rate": 0.0,
+    "score": 20.0
+  },
+  {
+    "opp_id": "ban-wilson-garden-budget-hotels",
+    "city": "Bengaluru",
+    "place_type": "locality",
+    "place": "Wilson Garden",
+    "filter_type": "category",
+    "filter": "budget-hotels",
+    "proposed_url": "https://www.treebo.com/budget-hotels-in-wilson-garden-bangalore/",
+    "exists_on_treebo": false,
+    "competitors_with_page": [],
+    "search_volume": 1200,
+    "matching_hotel_ids": [
+      "148",
+      "332"
+    ],
+    "ai_mention_rate": 0.0,
+    "score": 16.0
+  },
+  {
+    "opp_id": "ban-tata-motors-kht-domlur-budget-hotels",
+    "city": "Bengaluru",
+    "place_type": "landmark",
+    "place": "Tata Motors Kht Domlur",
+    "filter_type": "category",
+    "filter": "budget-hotels",
+    "proposed_url": "https://www.treebo.com/budget-hotels-near-tata-motors-kht-domlur-bangalore/",
+    "exists_on_treebo": false,
+    "competitors_with_page": [],
+    "search_volume": 1200,
+    "matching_hotel_ids": [
+      "234",
+      "444"
+    ],
+    "ai_mention_rate": 0.0,
+    "score": 16.0
+  },
+  {
+    "opp_id": "ban-wilson-garden-parking",
+    "city": "Bengaluru",
+    "place_type": "locality",
+    "place": "Wilson Garden",
+    "filter_type": "amenity",
+    "filter": "parking",
+    "proposed_url": "https://www.treebo.com/hotels-in-wilson-garden-bangalore-with-parking/",
+    "exists_on_treebo": false,
+    "competitors_with_page": [],
+    "search_volume": 190,
+    "matching_hotel_ids": [
+      "148",
+      "1026"
+    ],
+    "ai_mention_rate": 0.0,
+    "score": 2.5
+  },
+  {
+    "opp_id": "ban-tata-motors-kht-domlur-parking",
+    "city": "Bengaluru",
+    "place_type": "landmark",
+    "place": "Tata Motors Kht Domlur",
+    "filter_type": "amenity",
+    "filter": "parking",
+    "proposed_url": "https://www.treebo.com/hotels-near-tata-motors-kht-domlur-bangalore-with-parking/",
+    "exists_on_treebo": false,
+    "competitors_with_page": [],
+    "search_volume": 190,
+    "matching_hotel_ids": [
+      "234",
+      "444"
+    ],
+    "ai_mention_rate": 0.0,
+    "score": 2.5
+  },
+  {
+    "opp_id": "pun-bhandarkar-road-budget-hotels",
+    "city": "Pune",
+    "place_type": "locality",
+    "place": "Bhandarkar Road",
+    "filter_type": "category",
+    "filter": "budget-hotels",
+    "proposed_url": "https://www.treebo.com/budget-hotels-in-bhandarkar-road-pune/",
+    "exists_on_treebo": false,
+    "competitors_with_page": [],
+    "search_volume": 660,
+    "matching_hotel_ids": [
+      "174",
+      "630"
+    ],
+    "ai_mention_rate": 0.0,
+    "score": 32.0
+  },
+  {
+    "opp_id": "pun-bhandarkar-road-couple-friendly-hotels",
+    "city": "Pune",
+    "place_type": "locality",
+    "place": "Bhandarkar Road",
+    "filter_type": "category",
+    "filter": "couple-friendly-hotels",
+    "proposed_url": "https://www.treebo.com/couple-friendly-hotels-in-bhandarkar-road-pune/",
+    "exists_on_treebo": false,
+    "competitors_with_page": [],
+    "search_volume": 590,
+    "matching_hotel_ids": [
+      "174",
+      "630"
+    ],
+    "ai_mention_rate": 0.0,
+    "score": 28.6
+  },
+  {
+    "opp_id": "pun-thermax-chowk-budget-hotels",
+    "city": "Pune",
+    "place_type": "landmark",
+    "place": "Thermax Chowk",
+    "filter_type": "category",
+    "filter": "budget-hotels",
+    "proposed_url": "https://www.treebo.com/budget-hotels-near-thermax-chowk-pune/",
+    "exists_on_treebo": false,
+    "competitors_with_page": [],
+    "search_volume": 330,
+    "matching_hotel_ids": [
+      "124",
+      "808",
+      "811"
+    ],
+    "ai_mention_rate": 0.0,
+    "score": 24.0
+  },
+  {
+    "opp_id": "pun-bhandarkar-road-business-hotels",
+    "city": "Pune",
+    "place_type": "locality",
+    "place": "Bhandarkar Road",
+    "filter_type": "category",
+    "filter": "business-hotels",
+    "proposed_url": "https://www.treebo.com/business-hotels-in-bhandarkar-road-pune/",
+    "exists_on_treebo": false,
+    "competitors_with_page": [],
+    "search_volume": 200,
+    "matching_hotel_ids": [
+      "174",
+      "630"
+    ],
+    "ai_mention_rate": 0.0,
+    "score": 9.7
+  },
+  {
+    "opp_id": "pun-bhandarkar-road-family-hotels",
+    "city": "Pune",
+    "place_type": "locality",
+    "place": "Bhandarkar Road",
+    "filter_type": "category",
+    "filter": "family-hotels",
+    "proposed_url": "https://www.treebo.com/family-hotels-in-bhandarkar-road-pune/",
+    "exists_on_treebo": false,
+    "competitors_with_page": [],
+    "search_volume": 200,
+    "matching_hotel_ids": [
+      "174",
+      "630"
+    ],
+    "ai_mention_rate": 0.0,
+    "score": 9.7
+  },
+  {
+    "opp_id": "pun-thermax-chowk-business-hotels",
+    "city": "Pune",
+    "place_type": "landmark",
+    "place": "Thermax Chowk",
+    "filter_type": "category",
+    "filter": "business-hotels",
+    "proposed_url": "https://www.treebo.com/business-hotels-near-thermax-chowk-pune/",
+    "exists_on_treebo": false,
+    "competitors_with_page": [],
+    "search_volume": 100,
+    "matching_hotel_ids": [
+      "124",
+      "808",
+      "811"
+    ],
+    "ai_mention_rate": 0.0,
+    "score": 7.3
+  },
+  {
+    "opp_id": "pun-thermax-chowk-family-hotels",
+    "city": "Pune",
+    "place_type": "landmark",
+    "place": "Thermax Chowk",
+    "filter_type": "category",
+    "filter": "family-hotels",
+    "proposed_url": "https://www.treebo.com/family-hotels-near-thermax-chowk-pune/",
+    "exists_on_treebo": false,
+    "competitors_with_page": [],
+    "search_volume": 100,
+    "matching_hotel_ids": [
+      "124",
+      "808",
+      "811"
+    ],
+    "ai_mention_rate": 0.0,
+    "score": 7.3
+  },
+  {
+    "opp_id": "pun-bhandarkar-road-parking",
+    "city": "Pune",
+    "place_type": "locality",
+    "place": "Bhandarkar Road",
+    "filter_type": "amenity",
+    "filter": "parking",
+    "proposed_url": "https://www.treebo.com/hotels-in-bhandarkar-road-pune-with-parking/",
+    "exists_on_treebo": false,
+    "competitors_with_page": [],
+    "search_volume": 110,
+    "matching_hotel_ids": [
+      "174",
+      "630"
+    ],
+    "ai_mention_rate": 0.0,
+    "score": 5.3
+  },
+  {
+    "opp_id": "pun-kharadi-parking",
+    "city": "Pune",
+    "place_type": "locality",
+    "place": "Kharadi",
+    "filter_type": "amenity",
+    "filter": "parking",
+    "proposed_url": "https://www.treebo.com/hotels-in-kharadi-pune-with-parking/",
+    "exists_on_treebo": false,
+    "competitors_with_page": [],
+    "search_volume": 110,
+    "matching_hotel_ids": [
+      "135",
+      "733"
+    ],
+    "ai_mention_rate": 0.0,
+    "score": 5.3
+  },
+  {
+    "opp_id": "pun-thermax-chowk-parking",
+    "city": "Pune",
+    "place_type": "landmark",
+    "place": "Thermax Chowk",
+    "filter_type": "amenity",
+    "filter": "parking",
+    "proposed_url": "https://www.treebo.com/hotels-near-thermax-chowk-pune-with-parking/",
+    "exists_on_treebo": false,
+    "competitors_with_page": [],
+    "search_volume": 50,
+    "matching_hotel_ids": [
+      "124",
+      "808",
+      "811"
+    ],
+    "ai_mention_rate": 0.0,
+    "score": 3.6
+  },
+  {
+    "opp_id": "pun-thermax-chowk-banquet-hall",
+    "city": "Pune",
+    "place_type": "landmark",
+    "place": "Thermax Chowk",
+    "filter_type": "amenity",
+    "filter": "banquet-hall",
+    "proposed_url": "https://www.treebo.com/hotels-near-thermax-chowk-pune-with-banquet-hall/",
+    "exists_on_treebo": false,
+    "competitors_with_page": [],
+    "search_volume": 40,
+    "matching_hotel_ids": [
+      "124",
+      "811"
+    ],
+    "ai_mention_rate": 0.0,
+    "score": 1.9
+  },
+  {
+    "opp_id": "pun-thermax-chowk-bar",
+    "city": "Pune",
+    "place_type": "landmark",
+    "place": "Thermax Chowk",
+    "filter_type": "amenity",
+    "filter": "bar",
+    "proposed_url": "https://www.treebo.com/hotels-near-thermax-chowk-pune-with-bar/",
+    "exists_on_treebo": false,
+    "competitors_with_page": [],
+    "search_volume": 30,
+    "matching_hotel_ids": [
+      "124",
+      "811"
+    ],
+    "ai_mention_rate": 0.0,
+    "score": 1.5
+  },
+  {
+    "opp_id": "ban-city-parking",
+    "city": "Bengaluru",
+    "place_type": "city",
+    "place": "Bengaluru",
+    "filter_type": "amenity",
+    "filter": "parking",
+    "proposed_url": "https://www.treebo.com/hotels-in-bangalore-with-parking/",
+    "exists_on_treebo": false,
+    "competitors_with_page": [],
+    "search_volume": 6400,
+    "matching_hotel_ids": [
+      "148",
+      "234",
+      "444",
+      "644",
+      "1026"
+    ],
+    "ai_mention_rate": 0.0,
+    "score": 80.0
+  },
+  {
+    "opp_id": "pun-city-parking",
+    "city": "Pune",
+    "place_type": "city",
+    "place": "Pune",
+    "filter_type": "amenity",
+    "filter": "parking",
+    "proposed_url": "https://www.treebo.com/hotels-in-pune-with-parking/",
+    "exists_on_treebo": false,
+    "competitors_with_page": [],
+    "search_volume": 3520,
+    "matching_hotel_ids": [
+      "124",
+      "135",
+      "174",
+      "221",
+      "630",
+      "733",
+      "808",
+      "811"
+    ],
+    "ai_mention_rate": 0.0,
+    "score": 80.0
+  }
+]
